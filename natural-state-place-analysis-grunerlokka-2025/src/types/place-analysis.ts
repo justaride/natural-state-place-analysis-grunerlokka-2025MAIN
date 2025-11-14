@@ -225,10 +225,16 @@ export interface EventReference {
 export interface MediaReference {
   id: string;
   title: string;
-  source: string;
-  publishDate: string; // ISO date
+  date: string; // Date or period
+  kategori?: string;
+  publikasjoner?: string[];
+  antallArtikler?: number;
+  sentiment?: 'positiv' | 'negativ' | 'nøytral' | 'balansert' | 'blandet' | 'kritisk_men_håpefull';
+  impactLevel?: 'high' | 'medium' | 'low';
+  beskrivelse: string;
+  source?: string; // For backwards compatibility
+  publishDate?: string; // For backwards compatibility
   url?: string;
-  sentiment?: 'positive' | 'neutral' | 'negative';
   topics?: string[];
   excerpt?: string;
 }
