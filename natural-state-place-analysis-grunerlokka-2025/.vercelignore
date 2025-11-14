@@ -3,11 +3,10 @@ node_modules
 .next
 .env*.local
 
-# Python scripts (for local development only)
-scripts/*.py
-*.py
+# Documentation (not needed for build)
+*.md
+!README.md
 
-# Python dependencies
-requirements.txt
-Pipfile
-Pipfile.lock
+# Development files
+.prettierrc
+eslint.config.mjs
