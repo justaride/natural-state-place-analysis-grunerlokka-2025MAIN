@@ -149,12 +149,12 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <Link href="/analyser">
-              <Button size="lg" variant="contrast">
+              <Button size="lg" variant="primary">
                 Se Analyser
               </Button>
             </Link>
             <Link href="/sammenligninger">
-              <Button size="lg" variant="outlineLight">
+              <Button size="lg" variant="outline">
                 Sammenlign Områder
               </Button>
             </Link>
