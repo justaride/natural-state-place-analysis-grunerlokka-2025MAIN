@@ -49,6 +49,11 @@ export interface AreaDefinition {
   boundaries?: GeoJSON;
   subAreas?: string[]; // IDs of sub-areas
   description?: string;
+  areas?: Array<{ // For comparison analyses with multiple areas
+    id: string;
+    name: string;
+    color: string;
+  }>;
 }
 
 /**
