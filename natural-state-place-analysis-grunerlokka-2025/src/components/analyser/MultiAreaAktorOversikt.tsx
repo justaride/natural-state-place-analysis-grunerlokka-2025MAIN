@@ -45,7 +45,7 @@ interface MultiAreaAktorOversiktProps {
 }
 
 export default function MultiAreaAktorOversikt({ areas, areaData }: MultiAreaAktorOversiktProps) {
-  const [selectedArea, setSelectedArea] = useState<string>(areas[0].key);
+  const [selectedArea, setSelectedArea] = useState<string>(areas[0]?.key || '');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [showAllActors, setShowAllActors] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
