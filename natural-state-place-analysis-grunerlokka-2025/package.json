@@ -1,0 +1,50 @@
+{
+  "name": "natural-state-place-analysis-grunerlokka-2025",
+  "version": "1.0.0",
+  "description": "Natural State Place Analysis - Comprehensive temporal and comparative analysis of Grunerløkka, Oslo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,json,md}\"",
+    "type-check": "tsc --noEmit",
+    "validate:data": "tsx scripts/validate-data.ts"
+  },
+  "keywords": ["place analysis", "Grunerløkka", "Oslo", "urban analytics", "temporal analysis"],
+  "author": "Natural State",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "next": "^16.0.1",
+    "pdfjs-dist": "^5.4.394",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "react-pdf": "^10.2.0",
+    "typescript": "^5.9.3",
+    "recharts": "^2.15.0",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.21",
+    "clsx": "^2.1.1",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.17",
+    "tsx": "^4.20.6",
+    "zod": "^4.1.12"
+  }
+}
