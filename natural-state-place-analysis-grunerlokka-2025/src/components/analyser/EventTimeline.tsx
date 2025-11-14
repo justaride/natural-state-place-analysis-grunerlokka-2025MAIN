@@ -19,7 +19,6 @@ import {
   aggregateByMonth,
   filterEventsByHierarchy,
   getEventColor,
-  getEventSize,
   formatTimelineDate,
 } from '@/lib/timeline-utils';
 
