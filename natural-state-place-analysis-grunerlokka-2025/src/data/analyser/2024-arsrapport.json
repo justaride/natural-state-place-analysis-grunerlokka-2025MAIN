@@ -20,9 +20,146 @@
     },
     "description": "En av Oslos mest livlige og kulturelt mangfoldige bydeler"
   },
+  "events": [
+    {
+      "id": "oslo-pride-2024",
+      "title": "Oslo Pride 2024 (50-årsjubileum)",
+      "date": "2024-06-29",
+      "type": "cultural",
+      "impactLevel": "high",
+      "description": "70,000 deltakere i parade, Pride Park i Sofienbergparken 26-29. juni"
+    },
+    {
+      "id": "piknik-i-parken-2024",
+      "title": "Piknik i Parken",
+      "date": "2024-06-13",
+      "type": "cultural",
+      "impactLevel": "high",
+      "description": "15,000+ besøkende over 3 dager med internasjonale artister"
+    },
+    {
+      "id": "musikkfest-oslo-2024",
+      "title": "Musikkfest Oslo",
+      "date": "2024-06-01",
+      "type": "cultural",
+      "impactLevel": "high",
+      "description": "Gratis musikkfestival med 10,000+ besøkende over 50+ scener"
+    },
+    {
+      "id": "lokkadagene-mai-2024",
+      "title": "Løkkadagene (vår)",
+      "date": "2024-05-04",
+      "type": "commercial",
+      "impactLevel": "medium",
+      "description": "5,000+ besøkende, Markveien stengt for gatemarked"
+    },
+    {
+      "id": "oslo-vegetarfestival-2024",
+      "title": "Oslo Vegetarfestival",
+      "date": "2024-05-24",
+      "type": "commercial",
+      "impactLevel": "medium",
+      "description": "5,000+ besøkende, Nordens største plantebaserte matfestival"
+    },
+    {
+      "id": "8-mars-2024",
+      "title": "8. mars-markering",
+      "date": "2024-03-08",
+      "type": "social",
+      "impactLevel": "medium",
+      "description": "6,000-7,000 deltakere i demonstrasjon for kvinners rettigheter"
+    },
+    {
+      "id": "jul-pa-lokka-2024",
+      "title": "Jul på Løkka",
+      "date": "2024-11-30",
+      "type": "cultural",
+      "impactLevel": "medium",
+      "description": "2,000+ besøkende, julestjerne tent på Olaf Ryes plass"
+    }
+  ],
+  "media": [
+    {
+      "id": "tre-narrativer-analyse",
+      "title": "Tre medienarrativ definerer Grünerløkka",
+      "date": "2024",
+      "kategori": "medieanalyse",
+      "publikasjoner": ["Analyse av alle kilder"],
+      "antallArtikler": 78,
+      "sentiment": "balansert",
+      "impactLevel": "high",
+      "beskrivelse": "Mediebildet er splittet i tre parallelle fortellinger: 'Destinasjonen Løkka' (41% positiv livsstil), 'Problem-Løkka' (18% kriminalitet), og 'Hverdags-Løkka' (41% nyansert lokal). Disse tre eksisterer separat og skaper et merkevare-paradoks."
+    },
+    {
+      "id": "oslo-pride-media-coverage",
+      "title": "Oslo Pride 2024 - Omfattende mediedekning",
+      "date": "2024-06",
+      "kategori": "kultur_arrangementer",
+      "publikasjoner": ["NTB", "Fagforbundet", "Oslopolitan", "FRI", "The Local"],
+      "antallArtikler": 8,
+      "sentiment": "positiv",
+      "impactLevel": "high",
+      "beskrivelse": "Dominerende mediefokus i juni med omfattende dekning av 50-årsjubileet. 70,000 deltakere i parade, Pride Park i Sofienbergparken. Representerer 'Destinasjonen Løkka'."
+    },
+    {
+      "id": "vulkan-studenthus-suksess",
+      "title": "Vulkan Studenthus - Den usynlige suksessen",
+      "date": "2024-09",
+      "kategori": "eiendomsutvikling",
+      "publikasjoner": ["Bygg.no", "NCC", "SiO"],
+      "antallArtikler": 3,
+      "sentiment": "positiv",
+      "impactLevel": "high",
+      "beskrivelse": "209 studentboliger ferdigstilt og overlevert. NCC kaller det et 'løft for nærområdet'. Fagpressen feirer, men allmennheten vet lite. Viser at store institusjonelle prosjekter LYKKES på Grünerløkka."
+    },
+    {
+      "id": "hallengarden-vendepunkt",
+      "title": "Halléngården - 20 år senere, et håp",
+      "date": "2024-10/2024-12",
+      "kategori": "eiendomsutvikling",
+      "publikasjoner": ["VårtOslo", "Riksantikvaren"],
+      "antallArtikler": 2,
+      "sentiment": "kritisk_men_håpefull",
+      "impactLevel": "medium",
+      "beskrivelse": "Etter 20 års forfall ble eierselskapet tvangsoppløst av Oslo Tingrett (okt 2024). United Bakeries med forkjøpsrett gir håp. Symboliserer kontrasten: Vulkan lykkes, Halléngården feiler - begge forteller om byutviklingens utfordringer."
+    },
+    {
+      "id": "restauranter-hardship-vs-hipness",
+      "title": "Matbyen: Hipness vs. Hardship",
+      "date": "2024",
+      "kategori": "næringsliv",
+      "publikasjoner": ["Aftenposten Vink", "VårtOslo", "Finansavisen"],
+      "antallArtikler": 28,
+      "sentiment": "blandet",
+      "impactLevel": "medium",
+      "beskrivelse": "28 artikler om mat/drikke viser to sider: Aftenposten Vink feirer nye nisjerestauranter (Pao, Püta Madre), mens VårtOslo rapporterer om Plantasjen-nedleggelse. Tradisjonell handel skvises ut av spesialisering."
+    },
+    {
+      "id": "flerbrukshuset-fellesskap",
+      "title": "Grünerløkka Flerbrukshus - Fellesskapets hjerte",
+      "date": "2024",
+      "kategori": "sosiale_forhold",
+      "publikasjoner": ["Grünerløkka Flerbrukshus", "VårtOslo"],
+      "antallArtikler": 4,
+      "sentiment": "positiv",
+      "impactLevel": "medium",
+      "beskrivelse": "Seniorsenter, Frisklivsentral, Frivilligsentral. Tirsdagstrening, Sterk og stødig, Talentshow for unge. Dette er den positive 'Hverdags-Løkka' som sjelden når nasjonale overskrifter, men som bygger fellesskap hver dag."
+    },
+    {
+      "id": "kriminalitet-medie-ekko",
+      "title": "Kriminalitetsdekningen - Medie-ekkoet",
+      "date": "2024",
+      "kategori": "kriminalitet",
+      "publikasjoner": ["VG", "Dagbladet", "NRK", "VårtOslo"],
+      "antallArtikler": 12,
+      "sentiment": "negativ",
+      "impactLevel": "high",
+      "beskrivelse": "12 artikler om alvorlig kriminalitet (skyting, knivstikkinger, drapsforsøk). Men analyse viser 'medie-ekko': 2023-drap holdes levende gjennom rettssaker i 2024. Gamle hendelser gjenopplives, forsterker negativitet. 'Problem-Løkka' føles større enn 18%."
+    }
+  ],
   "plaaceData": {
     "rapportDato": "2024-12-31",
-    "datakilder": ["Plaace.ai"],
+    "datakilder": ["Plaace.ai", "Aktivitetskartlegging 2024 (156 arrangementer)", "Mediekartlegging 2024 (78 artikler)"],
     "screenshots": [
       {
         "id": "konkurranse-aktorer-kart",
@@ -215,7 +352,18 @@
       "359 aktører kartlagt med detaljert informasjon",
       "Total omsetning på 3.97 milliarder NOK",
       "Omfattende data for bevegelse, handel og besøkende",
-      "Inkluderer internasjonale besøkstall per kvartal"
+      "Inkluderer internasjonale besøkstall per kvartal",
+      "156 arrangementer dokumentert gjennom hele året",
+      "7 mega-arrangementer med 5000+ besøkende hver",
+      "45% av alle arrangementer gratis tilgjengelige",
+      "Juni toppunkt med 34 arrangementer (Pride, Piknik i Parken)",
+      "Fullstendig aktivitetskalender tilgjengelig i /data/aktiviteter-2024.json",
+      "78 dokumenterte medieartikler fra 2024 (estimert totalt 150-250+)",
+      "Tre tydelige medienarrativ: 'Destinasjonen Løkka' (41%), 'Problem-Løkka' (18%), 'Hverdags-Løkka' (41%)",
+      "Aftenposten Vink dominerer positiv dekning med 18 restaurantanmeldelser",
+      "Juni hadde flest artikler (16) primært på grunn av Oslo Pride",
+      "41% positiv sentiment, 36% nøytral, 18% negativ, 5% balansert",
+      "Fullstendig mediedekning tilgjengelig i /data/mediedekning-2024.json"
     ]
   }
 }

@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "Grünerløkka Mediedekning 2024",
+    "description": "Komplett oversikt over medieomtale av Grünerløkka i 2024",
+    "totalArticles": 78,
+    "datakilder": [
+      "Aftenposten/Vink",
+      "VG",
+      "Dagbladet/Børsen",
+      "VårtOslo",
+      "NRK",
+      "Dagsavisen",
+      "Finansavisen",
+      "Bygg.no",
+      "Mer av Oslo",
+      "Lokale blogger og nettsteder"
+    ],
+    "periode": "Januar - Desember 2024",
+    "sist_oppdatert": "2025-01-14"
+  },
+  "statistikk": {
+    "perManed": {
+      "januar": 4,
+      "februar": 5,
+      "mars": 1,
+      "april": 3,
+      "mai": 1,
+      "juni": 16,
+      "juli": 0,
+      "august": 6,
+      "september": 3,
+      "oktober": 1,
+      "november": 3,
+      "desember": 5
+    },
+    "perKategori": {
+      "kriminalitet": 12,
+      "mat_drikke": 28,
+      "eiendom": 10,
+      "kultur_arrangementer": 14,
+      "infrastruktur": 3,
+      "næringsliv": 8,
+      "politikk": 3
+    },
+    "perPublikasjon": {
+      "AftenpostenVink": 18,
+      "Dagbladet": 11,
+      "VG": 8,
+      "VårtOslo": 12,
+      "NRK": 4,
+      "MerAvOslo": 6,
+      "Finansavisen": 3,
+      "Bygg.no": 1,
+      "Andre": 15
+    },
+    "sentiment": {
+      "positiv": 32,
+      "nøytral": 28,
+      "negativ": 14,
+      "balansert": 4
+    },
+    "toppTemaer": [
+      {
+        "tema": "Oslo Pride 2024",
+        "antall": 8,
+        "sentiment": "positiv",
+        "impact": "høy"
+      },
+      {
+        "tema": "Restaurantanmeldelser",
+        "antall": 18,
+        "sentiment": "blandet",
+        "impact": "middels"
+      },
+      {
+        "tema": "Kriminalitet og sikkerhet",
+        "antall": 12,
+        "sentiment": "negativ",
+        "impact": "høy"
+      },
+      {
+        "tema": "Eiendomsutvikling",
+        "antall": 10,
+        "sentiment": "nøytral",
+        "impact": "middels"
+      },
+      {
+        "tema": "POWER-åpning Sannergata",
+        "antall": 2,
+        "sentiment": "positiv",
+        "impact": "middels"
+      }
+    ],
+    "narrativer": {
+      "destinasjon_lokka": {
+        "beskrivelse": "Positiv livsstil- og turismedekning",
+        "eksempel": "Aftenposten Vink restaurantanmeldelser, Mer av Oslo guides",
+        "andel": "41%"
+      },
+      "problem_lokka": {
+        "beskrivelse": "Negativ kriminalitetsfokusert riksdekning",
+        "eksempel": "VG/Dagbladet knivstikkinger, drap",
+        "andel": "18%"
+      },
+      "hverdags_lokka": {
+        "beskrivelse": "Nyansert lokal dekning fra VårtOslo",
+        "eksempel": "Boligsalg, lokalpolitikk, nærmiljøsaker",
+        "andel": "41%"
+      }
+    }
+  },
+  "nokkelartikler": [
+    {
+      "id": "oslo-pride-2024-coverage",
+      "tittel": "Oslo Pride 2024 (50-årsjubileum)",
+      "publikasjon": "Flere (NTB, Fagforbundet, Oslopolitan, FRI)",
+      "dato": "2024-06-19/2024-06-29",
+      "kategori": "kultur_arrangementer",
+      "sentiment": "positiv",
+      "sammendrag": "Omfattende dekning av Oslo Pride 2024 med Pride Park i Sofienbergparken. 70,000 deltakere i parade, 280 programpunkter over 10 dager. Markering av 50 år siden første Pride i Oslo.",
+      "impactLevel": "høy",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/18032173/"
+    },
+    {
+      "id": "trine-wagelid-drap",
+      "tittel": "Kvinne drept på Grünerløkka",
+      "publikasjon": "Aftenposten, VG, NRK, Dagbladet",
+      "dato": "2024-04-01",
+      "kategori": "kriminalitet",
+      "sentiment": "negativ",
+      "sammendrag": "Trine Wagelid (34) fra Honningsvåg funnet knivdrept i leilighet på Grünerløkka. Mann i 20-årene erkjente straffskyld. Stor mediedekning.",
+      "impactLevel": "høy",
+      "url": "https://www.aftenposten.no/oslo/i/EQ0xxG/"
+    },
+    {
+      "id": "power-apning-sannergata",
+      "tittel": "3000 folk i 900 meter lang kø - POWER-åpning",
+      "publikasjon": "VårtOslo",
+      "dato": "2024-11-14",
+      "kategori": "næringsliv",
+      "sentiment": "positiv",
+      "sammendrag": "Massiv interesse for POWER-butikkens åpning i Sannergata. 3000 mennesker i kø fra tidlig morgen. Viser stor handelsaktivitet på Grünerløkka.",
+      "impactLevel": "middels",
+      "url": "https://www.vartoslo.no/"
+    },
+    {
+      "id": "oversvommelse-september",
+      "tittel": "Massiv oversvømmelse på Grünerløkka",
+      "publikasjon": "Dagbladet, VG",
+      "dato": "2024-09-16",
+      "kategori": "infrastruktur",
+      "sentiment": "negativ",
+      "sammendrag": "Større vannlekkasje ved Korsgata/Schous Bryggeri førte til oversvømmelse med brunt vann i springen og oversvømte kjellere på Nedre Grünerløkka.",
+      "impactLevel": "middels",
+      "url": "https://www.dagbladet.no/nyheter/massiv-oversvommelse-pa-grnerlokka/81950432"
+    },
+    {
+      "id": "oslovelo-konkurs",
+      "tittel": "Oslovelo-baren konkurs",
+      "publikasjon": "Dagbladet Børsen, VårtOslo",
+      "dato": "2024-11-12",
+      "kategori": "næringsliv",
+      "sentiment": "negativ",
+      "sammendrag": "Populær sykkelbar på Grünerløkka gikk konkurs etter støyklager og økonomiske problemer. Nye eiere hadde overtatt med betydelig gjeld.",
+      "impactLevel": "lav",
+      "url": "https://borsen.dagbladet.no/nyheter/konkurs/82235236"
+    },
+    {
+      "id": "vulkan-knivstikking-desember",
+      "tittel": "Knivstikking ved Vulkan - to kritisk skadd",
+      "publikasjon": "Dagbladet, VårtOslo",
+      "dato": "2024-12-19/2024-12-21",
+      "kategori": "kriminalitet",
+      "sentiment": "negativ",
+      "sammendrag": "To personer kritisk skadd i knivstikking ved delikatessebutikk på Vulkan. Mann i 20-årene siktet for drapsforsøk.",
+      "impactLevel": "høy",
+      "url": "https://www.dagbladet.no/"
+    },
+    {
+      "id": "aftenposten-restauranter-2024",
+      "tittel": "Årets beste nye restauranter 2024",
+      "publikasjon": "Aftenposten Vink",
+      "dato": "2024-12-08",
+      "kategori": "mat_drikke",
+      "sentiment": "positiv",
+      "sammendrag": "Oppsummeringssak der dumpling-restaurant på Grünerløkka trekkes fram som en av årets beste nykommere. Del av omfattende restaurantdekning.",
+      "impactLevel": "lav",
+      "url": "https://vink.aftenposten.no/artikkel/nyVEGB/"
+    }
+  ],
+  "manedligOversikt": {
+    "januar": {
+      "antall": 4,
+      "hovedtemaer": ["restaurantstenging (Bass)", "boligmarked", "snøvær/værdokumentasjon"],
+      "sentiment": "nøytral"
+    },
+    "februar": {
+      "antall": 5,
+      "hovedtemaer": ["støyklager (Jimmy's)", "nyåpning (Hos Peder)", "bærekraft (ombruk skifer)", "politikk (Trond Giske)"],
+      "sentiment": "balansert"
+    },
+    "mars": {
+      "antall": 1,
+      "hovedtemaer": ["eiendomssalg"],
+      "sentiment": "nøytral"
+    },
+    "april": {
+      "antall": 3,
+      "hovedtemaer": ["drap (Trine Wagelid)", "påske/restauranter", "boligprosjekt Brenneriveien"],
+      "sentiment": "negativ"
+    },
+    "mai": {
+      "antall": 1,
+      "hovedtemaer": ["restaurantstenginger"],
+      "sentiment": "negativ"
+    },
+    "juni": {
+      "antall": 16,
+      "hovedtemaer": ["Oslo Pride (dominant)", "Oslo Comics Expo", "restaurantanmeldelser", "boligkjøp"],
+      "sentiment": "positiv"
+    },
+    "juli": {
+      "antall": 0,
+      "hovedtemaer": ["begrenset dekning funnet"],
+      "sentiment": "n/a"
+    },
+    "august": {
+      "antall": 6,
+      "hovedtemaer": ["knivstikkinger", "utleiesaker", "Pride oppfølging", "dekning (VårtOslo funksjonshemmede bolig)"],
+      "sentiment": "blandet"
+    },
+    "september": {
+      "antall": 3,
+      "hovedtemaer": ["oversvømmelse (stor sak)", "hyblifisering-kritikk", "butikknedleggelse"],
+      "sentiment": "negativ"
+    },
+    "oktober": {
+      "antall": 1,
+      "hovedtemaer": ["bombegruppe/mistenkelig gjenstand"],
+      "sentiment": "negativ"
+    },
+    "november": {
+      "antall": 3,
+      "hovedtemaer": ["Oslovelo konkurs", "POWER-åpning", "julemarked", "frivillighet"],
+      "sentiment": "blandet"
+    },
+    "desember": {
+      "antall": 5,
+      "hovedtemaer": ["knivstikking Vulkan", "restaurantanmeldelser (Püta Madre)", "budsjett", "julearrangementer"],
+      "sentiment": "blandet"
+    }
+  },
+  "medieTrender": {
+    "aukende_fokus": [
+      "Matkultur og restaurantdekning (Aftenposten Vink)",
+      "Lokale arrangementer og fellesskapsbygging",
+      "Bærekraft og miljøtiltak"
+    ],
+    "synkende_fokus": [
+      "Mindre nasjonal nyhetsdekning utenom kriminalitet",
+      "Begrenset dekning av lokalpolitikk i riksmedier"
+    ],
+    "gjentatte_temaer": [
+      "Kriminalitet (knivstikkinger) - negativ frame",
+      "Restaurantåpninger og -stenginger - nøytral/positiv frame",
+      "Eiendomssalg og boligpriser - nøytral frame",
+      "Pride og inkludering - positiv frame"
+    ]
+  },
+  "notater": [
+    "Totalt 78 dokumenterte artikler fra 2024, men reelt antall er sannsynligvis 150-250+ grunnet betalingsmurer og begrenset søkebarhet",
+    "Juni 2024 hadde klart mest dekning (16 artikler) primært på grunn av Oslo Pride 50-årsjubileum",
+    "Aftenposten Vink dominerer positiv dekning med omfattende restaurantanmeldelser (18 artikler)",
+    "VårtOslo gir mest nyansert lokal dekning med fokus på både utfordringer og muligheter",
+    "Tre tydelige narrativer: 'Destinasjonen Løkka' (positiv), 'Problem-Løkka' (negativ), 'Hverdags-Løkka' (nyansert)",
+    "NRK-dekning er underrepresentert grunnet robots.txt-blokkering i søk",
+    "Kriminalitetsdekning konsentrert i riksmedier (VG, Dagbladet) med fokus på alvorlige hendelser",
+    "Lokale positive historier primært i VårtOslo, Visit Løkka, Mer av Oslo",
+    "Juli 2024 har minimal dokumentert dekning - sannsynligvis sommerferieeffekt"
+  ]
+}

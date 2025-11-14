@@ -212,6 +212,245 @@ export default async function Analyse2024Page() {
         </section>
       )}
 
+      {/* Events Section */}
+      {analysis.events && analysis.events.length > 0 && (
+        <section className="border-b border-gray-200/30 bg-gradient-to-br from-purple-50/30 via-pink-50/20 to-blue-50/30 py-8 md:py-12">
+          <Container>
+            <div className="mb-6 md:mb-8">
+              <h2 className="text-2xl font-bold text-natural-forest md:text-3xl">
+                Nøkkelarrangementer 2024
+              </h2>
+              <p className="mt-2 text-sm text-gray-600 md:text-base">
+                De største arrangementene som preget Grünerløkka i 2024
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
+              {analysis.events.map((event) => (
+                <div
+                  key={event.id}
+                  className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6 md:hover:-translate-y-1"
+                >
+                  <div className="mb-3 flex items-start justify-between md:mb-4">
+                    <h3 className="text-base font-semibold text-natural-forest md:text-lg">
+                      {event.title}
+                    </h3>
+                    {event.impactLevel && (
+                      <span
+                        className={`rounded-full px-2 py-1 text-xs font-medium md:px-3 ${
+                          event.impactLevel === 'high'
+                            ? 'bg-red-100 text-red-800'
+                            : event.impactLevel === 'medium'
+                              ? 'bg-yellow-100 text-yellow-800'
+                              : 'bg-green-100 text-green-800'
+                        }`}
+                      >
+                        {event.impactLevel === 'high'
+                          ? 'Høy påvirkning'
+                          : event.impactLevel === 'medium'
+                            ? 'Middels'
+                            : 'Lav'}
+                      </span>
+                    )}
+                  </div>
+                  <p className="mb-3 text-xs text-gray-600 md:text-sm">
+                    📅 {new Date(event.date).toLocaleDateString('nb-NO', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    })}
+                  </p>
+                  {event.description && (
+                    <p className="text-xs leading-relaxed text-gray-700 md:text-sm">
+                      {event.description}
+                    </p>
+                  )}
+                  <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 opacity-0 transition-opacity group-hover:opacity-100" />
+                </div>
+              ))}
+            </div>
+
+            {/* Summary Card */}
+            <div className="mt-6 overflow-hidden rounded-xl border border-purple-200/50 bg-gradient-to-br from-purple-50/50 to-pink-50/50 p-4 shadow-sm md:mt-8 md:rounded-2xl md:p-6">
+              <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <h4 className="mb-2 text-base font-semibold text-natural-forest md:text-lg">
+                    Fullstendig aktivitetskalender
+                  </h4>
+                  <p className="text-xs leading-relaxed text-gray-700 md:text-sm">
+                    <strong>156 arrangementer</strong> dokumentert i 2024, hvorav{' '}
+                    <strong>7 mega-arrangementer</strong> med 5000+ besøkende hver.{' '}
+                    <strong>45%</strong> av alle arrangementer var gratis tilgjengelige.
+                  </p>
+                </div>
+                <a
+                  href="/data/aktiviteter-2024.json"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg bg-natural-forest px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-natural-forest/90 md:px-6 md:py-3"
+                >
+                  <span>Se fullstendig kalender</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
+      {/* Media Coverage Section */}
+      {analysis.media && analysis.media.length > 0 && (
+        <section className="border-b border-gray-200/30 bg-gradient-to-br from-blue-50/30 via-cyan-50/20 to-sky-50/30 py-8 md:py-12">
+          <Container>
+            <div className="mb-6 md:mb-8">
+              <h2 className="text-2xl font-bold text-natural-forest md:text-3xl">
+                Mediedekning 2024
+              </h2>
+              <p className="mt-2 text-sm text-gray-600 md:text-base">
+                Slik ble Grünerløkka omtalt i norske medier
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
+              {analysis.media.map((article) => (
+                <div
+                  key={article.id}
+                  className="group relative overflow-hidden rounded-xl border border-gray-200/50 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md md:rounded-2xl md:p-6 md:hover:-translate-y-1"
+                >
+                  <div className="mb-3 flex items-start justify-between md:mb-4">
+                    <h3 className="text-base font-semibold text-natural-forest md:text-lg">
+                      {article.title}
+                    </h3>
+                    {article.impactLevel && (
+                      <span
+                        className={`flex-shrink-0 rounded-full px-2 py-1 text-xs font-medium md:px-3 ${
+                          article.impactLevel === 'high'
+                            ? 'bg-red-100 text-red-800'
+                            : article.impactLevel === 'medium'
+                              ? 'bg-yellow-100 text-yellow-800'
+                              : 'bg-green-100 text-green-800'
+                        }`}
+                      >
+                        {article.impactLevel === 'high'
+                          ? 'Høy påvirkning'
+                          : article.impactLevel === 'medium'
+                            ? 'Middels'
+                            : 'Lav'}
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="mb-3 flex flex-wrap items-center gap-2 text-xs md:text-sm">
+                    <span
+                      className={`inline-flex rounded-full px-2 py-1 text-xs font-medium ${
+                        article.sentiment === 'positiv'
+                          ? 'bg-green-100 text-green-800'
+                          : article.sentiment === 'negativ'
+                            ? 'bg-red-100 text-red-800'
+                            : article.sentiment === 'balansert'
+                              ? 'bg-blue-100 text-blue-800'
+                              : article.sentiment === 'blandet'
+                                ? 'bg-yellow-100 text-yellow-800'
+                                : article.sentiment === 'kritisk_men_håpefull'
+                                  ? 'bg-amber-100 text-amber-800'
+                                  : 'bg-gray-100 text-gray-800'
+                      }`}
+                    >
+                      {article.sentiment === 'positiv' && '😊 '}
+                      {article.sentiment === 'negativ' && '😟 '}
+                      {article.sentiment === 'balansert' && '⚖️ '}
+                      {article.sentiment === 'blandet' && '🔀 '}
+                      {article.sentiment === 'kritisk_men_håpefull' && '🌅 '}
+                      {article.sentiment === 'nøytral' && '📰 '}
+                      {article.sentiment === 'positiv' && 'Positiv'}
+                      {article.sentiment === 'negativ' && 'Negativ'}
+                      {article.sentiment === 'balansert' && 'Balansert'}
+                      {article.sentiment === 'blandet' && 'Blandet'}
+                      {article.sentiment === 'kritisk_men_håpefull' && 'Kritisk/Håpefull'}
+                      {article.sentiment === 'nøytral' && 'Nøytral'}
+                    </span>
+                    <span className="text-gray-600">
+                      📊 {article.antallArtikler} {article.antallArtikler === 1 ? 'artikkel' : 'artikler'}
+                    </span>
+                  </div>
+
+                  <p className="mb-3 text-xs leading-relaxed text-gray-700 md:text-sm">
+                    {article.beskrivelse}
+                  </p>
+
+                  {article.publikasjoner && article.publikasjoner.length > 0 && (
+                    <div className="mt-3 flex flex-wrap gap-1.5 pt-3 border-t border-gray-100">
+                      {article.publikasjoner.slice(0, 3).map((pub, idx) => (
+                        <span
+                          key={idx}
+                          className="rounded-md bg-natural-sage/10 px-2 py-1 text-xs text-natural-forest"
+                        >
+                          {pub}
+                        </span>
+                      ))}
+                      {article.publikasjoner.length > 3 && (
+                        <span className="rounded-md bg-gray-100 px-2 py-1 text-xs text-gray-600">
+                          +{article.publikasjoner.length - 3}
+                        </span>
+                      )}
+                    </div>
+                  )}
+
+                  <div className="absolute bottom-0 left-0 h-1 w-full bg-gradient-to-r from-blue-500 via-cyan-500 to-sky-500 opacity-0 transition-opacity group-hover:opacity-100" />
+                </div>
+              ))}
+            </div>
+
+            {/* Summary Card with Stats */}
+            <div className="mt-6 overflow-hidden rounded-xl border border-blue-200/50 bg-gradient-to-br from-blue-50/50 to-cyan-50/50 p-4 shadow-sm md:mt-8 md:rounded-2xl md:p-6">
+              <div className="flex flex-col gap-4">
+                <div>
+                  <h4 className="mb-3 text-base font-semibold text-natural-forest md:text-lg">
+                    Medieanalyse 2024
+                  </h4>
+                  <div className="grid gap-3 text-xs sm:grid-cols-2 md:text-sm lg:grid-cols-4">
+                    <div>
+                      <div className="text-gray-600">Totalt artikler</div>
+                      <div className="text-lg font-bold text-natural-forest md:text-xl">78+</div>
+                    </div>
+                    <div>
+                      <div className="text-gray-600">Narrativer</div>
+                      <div className="text-lg font-bold text-natural-forest md:text-xl">3</div>
+                      <div className="text-xs text-gray-500">Destinasjonen / Problem / Hverdags</div>
+                    </div>
+                    <div>
+                      <div className="text-gray-600">Sentiment</div>
+                      <div className="text-lg font-bold text-green-700 md:text-xl">41% positiv</div>
+                    </div>
+                    <div>
+                      <div className="text-gray-600">Toppkategori</div>
+                      <div className="text-lg font-bold text-natural-forest md:text-xl">Mat/Drikke</div>
+                      <div className="text-xs text-gray-500">28 artikler</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-3 pt-3 border-t border-blue-200/50 sm:flex-row sm:items-center sm:justify-between">
+                  <p className="text-xs leading-relaxed text-gray-700 md:text-sm">
+                    Mediebildet er <strong>splittet i tre parallelle fortellinger</strong>:
+                    Destinasjonen Løkka (41% positiv), Problem-Løkka (18% negativ), og Hverdags-Løkka (41% nyansert).
+                    Analysen viser hvordan disse eksisterer separat og skaper et <strong>merkevare-paradoks</strong>.
+                  </p>
+                  <a
+                    href="/data/mediedekning-2024.json"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex flex-shrink-0 items-center gap-2 rounded-lg bg-natural-forest px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-natural-forest/90 md:px-6 md:py-3"
+                  >
+                    <span>Fullstendig medieanalyse</span>
+                    <span>→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
+      )}
+
       {/* Main Content */}
       <Container className="py-12 md:py-16 lg:py-20">
         {/* 1. Konkurranse */}
