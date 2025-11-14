@@ -10,3 +10,6 @@ node_modules
 # Development files
 .prettierrc
 eslint.config.mjs
+
+# Stray development files
+analysis-page-component.tsx
