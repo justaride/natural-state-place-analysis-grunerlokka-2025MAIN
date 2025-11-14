@@ -1,0 +1,13 @@
+# Vercel ignore file
+node_modules
+.next
+.env*.local
+
+# Python scripts (for local development only)
+scripts/*.py
+*.py
+
+# Python dependencies
+requirements.txt
+Pipfile
+Pipfile.lock
