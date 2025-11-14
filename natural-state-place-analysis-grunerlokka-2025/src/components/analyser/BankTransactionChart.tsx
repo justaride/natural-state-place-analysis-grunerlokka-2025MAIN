@@ -74,10 +74,10 @@ export default function BankTransactionChart({
   }, [chartData]);
 
   // Format x-axis labels
-  const formatXAxis = (dateStr: string) => {
+  const formatXAxis = (dateStr: string): string => {
     const date = new Date(dateStr);
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Des'];
-    return months[date.getMonth()];
+    return months[date.getMonth()] || 'Jan';
   };
 
   // Calculate domain with padding
