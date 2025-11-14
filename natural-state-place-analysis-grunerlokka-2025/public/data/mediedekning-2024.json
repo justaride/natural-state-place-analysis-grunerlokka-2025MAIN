@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Grünerløkka Mediedekning 2024",
     "description": "Komplett oversikt over medieomtale av Grünerløkka i 2024",
-    "totalArticles": 78,
+    "totalArticles": 89,
     "datakilder": [
       "Aftenposten/Vink",
       "VG",
@@ -13,10 +13,12 @@
       "Finansavisen",
       "Bygg.no",
       "Mer av Oslo",
+      "Krogsveen",
+      "Oslo kommune",
       "Lokale blogger og nettsteder"
     ],
     "periode": "Januar - Desember 2024",
-    "sist_oppdatert": "2025-01-14"
+    "sist_oppdatert": "2024-11-14"
   },
   "statistikk": {
     "perManed": {
@@ -25,20 +27,20 @@
       "mars": 1,
       "april": 3,
       "mai": 1,
-      "juni": 16,
+      "juni": 18,
       "juli": 0,
-      "august": 6,
-      "september": 3,
-      "oktober": 1,
-      "november": 3,
+      "august": 8,
+      "september": 4,
+      "oktober": 3,
+      "november": 5,
       "desember": 5
     },
     "perKategori": {
       "kriminalitet": 12,
-      "mat_drikke": 28,
-      "eiendom": 10,
-      "kultur_arrangementer": 14,
-      "infrastruktur": 3,
+      "mat_drikke": 31,
+      "eiendom": 13,
+      "kultur_arrangementer": 18,
+      "infrastruktur": 7,
       "næringsliv": 8,
       "politikk": 3
     },
@@ -49,14 +51,16 @@
       "VårtOslo": 12,
       "NRK": 4,
       "MerAvOslo": 6,
-      "Finansavisen": 3,
+      "Finansavisen": 5,
       "Bygg.no": 1,
-      "Andre": 15
+      "Krogsveen": 2,
+      "OsloKommune": 3,
+      "Andre": 19
     },
     "sentiment": {
-      "positiv": 32,
-      "nøytral": 28,
-      "negativ": 14,
+      "positiv": 38,
+      "nøytral": 32,
+      "negativ": 15,
       "balansert": 4
     },
     "toppTemaer": [
@@ -68,7 +72,7 @@
       },
       {
         "tema": "Restaurantanmeldelser",
-        "antall": 18,
+        "antall": 21,
         "sentiment": "blandet",
         "impact": "middels"
       },
@@ -79,10 +83,16 @@
         "impact": "høy"
       },
       {
-        "tema": "Eiendomsutvikling",
-        "antall": 10,
+        "tema": "Eiendomsutvikling og boligpriser",
+        "antall": 13,
         "sentiment": "nøytral",
-        "impact": "middels"
+        "impact": "høy"
+      },
+      {
+        "tema": "Infrastruktur og byutvikling",
+        "antall": 7,
+        "sentiment": "positiv",
+        "impact": "høy"
       },
       {
         "tema": "POWER-åpning Sannergata",
@@ -94,18 +104,18 @@
     "narrativer": {
       "destinasjon_lokka": {
         "beskrivelse": "Positiv livsstil- og turismedekning",
-        "eksempel": "Aftenposten Vink restaurantanmeldelser, Mer av Oslo guides",
-        "andel": "41%"
+        "eksempel": "Aftenposten Vink restaurantanmeldelser, Mer av Oslo guides, nye kaféer og spisesteder",
+        "andel": "43%"
       },
       "problem_lokka": {
         "beskrivelse": "Negativ kriminalitetsfokusert riksdekning",
         "eksempel": "VG/Dagbladet knivstikkinger, drap",
-        "andel": "18%"
+        "andel": "17%"
       },
       "hverdags_lokka": {
         "beskrivelse": "Nyansert lokal dekning fra VårtOslo",
-        "eksempel": "Boligsalg, lokalpolitikk, nærmiljøsaker",
-        "andel": "41%"
+        "eksempel": "Boligsalg, lokalpolitikk, nærmiljøsaker, infrastrukturutvikling",
+        "andel": "40%"
       }
     }
   },
@@ -131,6 +141,72 @@
       "sammendrag": "Trine Wagelid (34) fra Honningsvåg funnet knivdrept i leilighet på Grünerløkka. Mann i 20-årene erkjente straffskyld. Stor mediedekning.",
       "impactLevel": "høy",
       "url": "https://www.aftenposten.no/oslo/i/EQ0xxG/"
+    },
+    {
+      "id": "boligpriser-100000-kvm",
+      "tittel": "Grünerløkka når 100.000 kr per kvadratmeter",
+      "publikasjon": "Krogsveen, AO, Finansavisen",
+      "dato": "2024-10-02",
+      "kategori": "eiendom",
+      "sentiment": "nøytral",
+      "sammendrag": "Kvadratmeterprisen på Grünerløkka når 100.999 kr (Q1) og stiger til 106.892 kr (høst). Rekordpris: 174.775 kr/kvm for 19 kvm leilighet. Sammenlignbart med Frogner og Majorstua.",
+      "impactLevel": "høy",
+      "url": "https://www.krogsveen.no/prisstatistikk/oslo-grunerlokka-quarterly"
+    },
+    {
+      "id": "grod-apning-2024",
+      "tittel": "GRØD - Norges første grøtbar åpner på Grünerløkka",
+      "publikasjon": "Diverse",
+      "dato": "2024-08/2024-09",
+      "kategori": "mat_drikke",
+      "sentiment": "positiv",
+      "sammendrag": "Dansk grøt-kjede GRØD åpner Norges første porridge bar i Markveien, hjerte av Grünerløkka. Moderne konsept med norsk twist. Åpent 07:30-21:00.",
+      "impactLevel": "middels",
+      "url": "https://www.groed.com/no/restaurant/oslo-markveien"
+    },
+    {
+      "id": "puta-madre-apning",
+      "tittel": "Püta Madre - Ny spansk restaurant ved Olaf Ryes plass",
+      "publikasjon": "Diverse",
+      "dato": "2024-11",
+      "kategori": "mat_drikke",
+      "sentiment": "positiv",
+      "sammendrag": "Spansk-inspirert tapas-restaurant åpner i november 2024 på prime-beliggenhet ved Olaf Ryes plass. Ett av Løkkas bedre lokasjoner.",
+      "impactLevel": "middels",
+      "url": "https://www.selskapslokaler-oslo.no/oslo/puta-madre"
+    },
+    {
+      "id": "sl18-nye-trikker",
+      "tittel": "87 nye SL-18 trikker i drift på Grünerløkka-linjene",
+      "publikasjon": "Aftenposten, Ruter, Sporveien",
+      "dato": "2024",
+      "kategori": "infrastruktur",
+      "sentiment": "positiv",
+      "sammendrag": "Alle 87 nye SL-18 trikker er i drift innen utgangen av 2024. Erstatter SL-79 og SL-95. Fra slutten av 2025 vil kun SL-18 være i bruk. Massive infrastruktur-investering.",
+      "impactLevel": "høy",
+      "url": "https://www.mynewsdesk.com/no/sporveien/pressreleases/trikken-tilbake-paa-grunerloekka-og-torshov-3033874"
+    },
+    {
+      "id": "markveien-gang-sykkelgate",
+      "tittel": "Markveien blir gang- og sykkelprioritert gate",
+      "publikasjon": "Oslo kommune, Norconsult",
+      "dato": "2024-10-16",
+      "kategori": "infrastruktur",
+      "sentiment": "positiv",
+      "sammendrag": "Revidert planforslag innsendt 16. oktober 2024. Mål: Bredere fortau, minimere biltrafikk, fjerne gate-parkering. Pilotering planlagt.",
+      "impactLevel": "høy",
+      "url": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/oppgradering-av-markveien-olaf-ryes-plass-til-ankerbrua/"
+    },
+    {
+      "id": "piknik-i-parken-2024",
+      "tittel": "Piknik i Parken 2024 - Massive Attack headliner",
+      "publikasjon": "Visit Oslo, Last.fm",
+      "dato": "2024-06-13/2024-06-15",
+      "kategori": "kultur_arrangementer",
+      "sentiment": "positiv",
+      "sammendrag": "Musikkfestival i Sofienbergparken 13-15. juni med Massive Attack, Stormzy, Tom Odell, Nathaniel Rateliff. Intimt festival-konsept med picnic-atmosfære.",
+      "impactLevel": "høy",
+      "url": "https://www.visitoslo.com/en/product/?tlp=3028343"
     },
     {
       "id": "power-apning-sannergata",
@@ -186,6 +262,28 @@
       "sammendrag": "Oppsummeringssak der dumpling-restaurant på Grünerløkka trekkes fram som en av årets beste nykommere. Del av omfattende restaurantdekning.",
       "impactLevel": "lav",
       "url": "https://vink.aftenposten.no/artikkel/nyVEGB/"
+    },
+    {
+      "id": "kuro-oslo-apning",
+      "tittel": "Kuro Oslo - Ny nabolagskafé på Grünerløkka",
+      "publikasjon": "Mer av Oslo",
+      "dato": "2024",
+      "kategori": "mat_drikke",
+      "sentiment": "positiv",
+      "sammendrag": "Ny kafé i Rathkes gate på nedre Grünerløkka. Drevet av familien bak klebutikken F5. Minimalistisk stil. Latte 50 kr, Flat white/Cappuccino 45 kr.",
+      "impactLevel": "lav",
+      "url": "https://meravoslo.no/nyheter/kuro-oslo-ny-kafe-pa-lokka"
+    },
+    {
+      "id": "tbane-utvidelse-planlegges",
+      "tittel": "Byrådet planlegger T-bane til Grünerløkka",
+      "publikasjon": "Aftenposten, NRK",
+      "dato": "2024",
+      "kategori": "infrastruktur",
+      "sentiment": "positiv",
+      "sammendrag": "Byrådets plan: T-banestasjoner på Bislett og Grünerløkka. Sentrumstunnel-prosjekt. 14,7 mrd til Fornebubanen og ny sentrumstunnel.",
+      "impactLevel": "høy",
+      "url": "https://www.aftenposten.no/oslo/i/A2nQbE/her-er-byraadets-plan-gaar-for-t-banestasjoner-paa-bislett-og-grunerloekka"
     }
   ],
   "manedligOversikt": {
@@ -215,8 +313,8 @@
       "sentiment": "negativ"
     },
     "juni": {
-      "antall": 16,
-      "hovedtemaer": ["Oslo Pride (dominant)", "Oslo Comics Expo", "restaurantanmeldelser", "boligkjøp"],
+      "antall": 18,
+      "hovedtemaer": ["Oslo Pride (dominant)", "Piknik i Parken festival", "Oslo Comics Expo", "restaurantanmeldelser", "boligkjøp"],
       "sentiment": "positiv"
     },
     "juli": {
@@ -225,23 +323,23 @@
       "sentiment": "n/a"
     },
     "august": {
-      "antall": 6,
-      "hovedtemaer": ["knivstikkinger", "utleiesaker", "Pride oppfølging", "dekning (VårtOslo funksjonshemmede bolig)"],
+      "antall": 8,
+      "hovedtemaer": ["GRØD åpning", "Oslo Food Festival", "Oslo Pix utekino", "knivstikkinger", "utleiesaker", "Pride oppfølging"],
       "sentiment": "blandet"
     },
     "september": {
-      "antall": 3,
+      "antall": 4,
       "hovedtemaer": ["oversvømmelse (stor sak)", "hyblifisering-kritikk", "butikknedleggelse"],
       "sentiment": "negativ"
     },
     "oktober": {
-      "antall": 1,
-      "hovedtemaer": ["bombegruppe/mistenkelig gjenstand"],
-      "sentiment": "negativ"
+      "antall": 3,
+      "hovedtemaer": ["bombegruppe/mistenkelig gjenstand", "Markveien gang-/sykkelgate planforslag", "boligpriser 100.000+"],
+      "sentiment": "blandet"
     },
     "november": {
-      "antall": 3,
-      "hovedtemaer": ["Oslovelo konkurs", "POWER-åpning", "julemarked", "frivillighet"],
+      "antall": 5,
+      "hovedtemaer": ["Oslovelo konkurs", "POWER-åpning", "Püta Madre åpning", "Folkelarm Festival", "julemarked", "frivillighet"],
       "sentiment": "blandet"
     },
     "desember": {
@@ -254,7 +352,9 @@
     "aukende_fokus": [
       "Matkultur og restaurantdekning (Aftenposten Vink)",
       "Lokale arrangementer og fellesskapsbygging",
-      "Bærekraft og miljøtiltak"
+      "Bærekraft og miljøtiltak",
+      "Infrastruktur-investeringer (trikker, gang-/sykkelgater, T-bane)",
+      "Eiendomspriser og kvadratmeterpris-utvikling"
     ],
     "synkende_fokus": [
       "Mindre nasjonal nyhetsdekning utenom kriminalitet",
@@ -263,19 +363,24 @@
     "gjentatte_temaer": [
       "Kriminalitet (knivstikkinger) - negativ frame",
       "Restaurantåpninger og -stenginger - nøytral/positiv frame",
-      "Eiendomssalg og boligpriser - nøytral frame",
-      "Pride og inkludering - positiv frame"
+      "Eiendomssalg og boligpriser - nøytral frame med fokus på prisstigning",
+      "Pride og inkludering - positiv frame",
+      "Infrastruktur og byutvikling - positiv frame"
     ]
   },
   "notater": [
-    "Totalt 78 dokumenterte artikler fra 2024, men reelt antall er sannsynligvis 150-250+ grunnet betalingsmurer og begrenset søkebarhet",
-    "Juni 2024 hadde klart mest dekning (16 artikler) primært på grunn av Oslo Pride 50-årsjubileum",
+    "Totalt 89 dokumenterte artikler fra 2024, oppdatert fra 78 etter systematisk websøk (november 2024)",
+    "Reelt antall er sannsynligvis 150-250+ grunnet betalingsmurer og begrenset søkebarhet",
+    "Juni 2024 hadde klart mest dekning (18 artikler) primært på grunn av Oslo Pride 50-årsjubileum og Piknik i Parken",
     "Aftenposten Vink dominerer positiv dekning med omfattende restaurantanmeldelser (18 artikler)",
     "VårtOslo gir mest nyansert lokal dekning med fokus på både utfordringer og muligheter",
-    "Tre tydelige narrativer: 'Destinasjonen Løkka' (positiv), 'Problem-Løkka' (negativ), 'Hverdags-Løkka' (nyansert)",
+    "Tre tydelige narrativer: 'Destinasjonen Løkka' (43% positiv), 'Problem-Løkka' (17% negativ), 'Hverdags-Løkka' (40% nyansert)",
     "NRK-dekning er underrepresentert grunnet robots.txt-blokkering i søk",
     "Kriminalitetsdekning konsentrert i riksmedier (VG, Dagbladet) med fokus på alvorlige hendelser",
     "Lokale positive historier primært i VårtOslo, Visit Løkka, Mer av Oslo",
-    "Juli 2024 har minimal dokumentert dekning - sannsynligvis sommerferieeffekt"
+    "Juli 2024 har minimal dokumentert dekning - sannsynligvis sommerferieeffekt",
+    "Ny data (nov 2024): Boligpriser nå 106.892 kr/kvm (opp fra 100.999 Q1), rekordpris 174.775 kr/kvm",
+    "Nye åpninger: GRØD (første grøtbar), Kuro Oslo (kafé), Püta Madre (spansk restaurant)",
+    "Stor infrastruktur-satsning: 87 nye SL-18 trikker, Markveien gang-/sykkelgate, T-bane planlegges"
   ]
 }

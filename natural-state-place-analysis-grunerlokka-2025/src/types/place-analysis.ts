@@ -214,9 +214,37 @@ export interface EventReference {
   id: string;
   title: string;
   date: string; // ISO date
+  endDate?: string; // For multi-day events
   type: 'cultural' | 'commercial' | 'infrastructure' | 'social' | 'policy';
   impactLevel?: 'low' | 'medium' | 'high';
+  hierarchyLevel?: 1 | 2 | 3 | 4 | 5; // 1 = highest impact (5000+), 5 = lowest (<50)
+  estimatedAttendees?: number;
   description?: string;
+}
+
+/**
+ * Timeline data point combining events with metrics
+ */
+export interface TimelineDataPoint {
+  date: string; // YYYY-MM-DD
+  timestamp: number; // Unix timestamp for charting
+  events: EventReference[];
+  banktransaksjoner?: number; // Daily/weekly aggregate
+  besokende?: number; // Daily/weekly registered visitors
+  eventCount?: number; // Number of events on this date
+  totalAttendees?: number; // Sum of attendees for all events
+}
+
+/**
+ * Timeline configuration
+ */
+export interface TimelineConfig {
+  startDate: string;
+  endDate: string;
+  aggregation: 'day' | 'week' | 'month';
+  showHierarchyLevels: (1 | 2 | 3 | 4 | 5)[]; // Which levels to display
+  showBankData: boolean;
+  showVisitorData: boolean;
 }
 
 /**
