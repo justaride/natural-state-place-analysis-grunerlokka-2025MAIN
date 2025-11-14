@@ -239,6 +239,7 @@ export interface AnalysisMetadata {
   forfatter?: string;
   kilde: string[];
   notater?: string[];
+  heroImage?: string; // Path to hero image for page header
 }
 
 /**
