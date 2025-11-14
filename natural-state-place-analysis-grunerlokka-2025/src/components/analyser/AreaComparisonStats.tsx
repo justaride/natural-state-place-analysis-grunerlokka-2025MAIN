@@ -86,6 +86,8 @@ export default function AreaComparisonStats({ data }: AreaComparisonStatsProps) 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {areaKeys.map((key) => {
             const area = data.areas[key];
+            if (!area) return null;
+
             const avgRevenue = Math.round(area.totalRevenue / area.totalActors);
             const percentOfTotal = ((area.totalActors / data.metadata.totalActors) * 100).toFixed(1);
 
