@@ -1,0 +1,221 @@
+{
+  "id": "2024-arsrapport",
+  "title": "Grünerløkka 2024 - Årsrapport",
+  "analysisType": "monthly",
+  "period": {
+    "type": "year",
+    "year": 2024,
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "label": "2024"
+  },
+  "area": {
+    "id": "grunerlokka",
+    "name": "Grünerløkka",
+    "displayName": "Grünerløkka, Oslo",
+    "type": "district",
+    "coordinates": {
+      "lat": 59.9239,
+      "lng": 10.7579
+    },
+    "description": "En av Oslos mest livlige og kulturelt mangfoldige bydeler"
+  },
+  "plaaceData": {
+    "rapportDato": "2024-12-31",
+    "datakilder": ["Plaace.ai"],
+    "screenshots": [
+      {
+        "id": "konkurranse-aktorer-kart",
+        "filnavn": "Aktører i kart",
+        "path": "/images/graphs/2024/konkurranse/01-aktorer-kart.jpg",
+        "beskrivelse": "Geografisk oversikt over aktører i området",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-nokkeldata",
+        "filnavn": "Konkurransebildet - Nøkkeldata",
+        "path": "/images/graphs/2024/konkurranse/02-nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata for konkurranse og markedsstruktur",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-kjeder-uavhengige",
+        "filnavn": "Kjeder VS Uavhengige konsepter",
+        "path": "/images/graphs/2024/konkurranse/03-kjeder-vs-uavhengige.jpg",
+        "beskrivelse": "Sammenligning av kjeder og uavhengige aktører",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-konseptmiks",
+        "filnavn": "Konseptmiks",
+        "path": "/images/graphs/2024/konkurranse/04-konseptmiks.jpg",
+        "beskrivelse": "Fordeling av konsepter og bransjer",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-utvikling",
+        "filnavn": "Utvikling per år",
+        "path": "/images/graphs/2024/konkurranse/05-utvikling-per-ar.jpg",
+        "beskrivelse": "Historisk utvikling av konkurransesituasjonen",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-andeler",
+        "filnavn": "Over og Underandel Kommune",
+        "path": "/images/graphs/2024/konkurranse/06-over-underandel-kommune.jpg",
+        "beskrivelse": "Sammenligning med kommunenivå",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "korthandel-nokkeldata",
+        "filnavn": "Korthandel - Nøkkeldata",
+        "path": "/images/graphs/2024/korthandel/01-nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata for korthandel og transaksjoner",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-transaksjoner",
+        "filnavn": "Korthandel - Transaksjoner",
+        "path": "/images/graphs/2024/korthandel/02-transaksjoner.jpg",
+        "beskrivelse": "Detaljert oversikt over transaksjoner gjennom året",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-indeksert-vekst",
+        "filnavn": "Korthandel - Indeksert Vekst",
+        "path": "/images/graphs/2024/korthandel/03-indeksert-vekst.jpg",
+        "beskrivelse": "Indeksert vekst i korthandel over tid",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-ukedag",
+        "filnavn": "Korthandel per ukedag",
+        "path": "/images/graphs/2024/korthandel/04-per-ukedag.jpg",
+        "beskrivelse": "Fordeling av korthandel per ukedag",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "bevegelse-nokkeldata",
+        "filnavn": "Bevegelse - Nøkkeldata",
+        "path": "/images/graphs/2024/bevegelse/01-nokkeldata.jpg",
+        "beskrivelse": "Nøkkeldata for bevegelse og besøkende",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "bevegelse-monster",
+        "filnavn": "Bevegelsesmønster",
+        "path": "/images/graphs/2024/bevegelse/02-bevegelsesmonster.jpg",
+        "beskrivelse": "Gjennomsnittlige daglige besøk og bevegelsesmønstre",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "bevegelse-ukedag",
+        "filnavn": "Besøk per ukedag",
+        "path": "/images/graphs/2024/bevegelse/03-besok-per-ukedag.jpg",
+        "beskrivelse": "Daglig gjennomsnitt per ukedag",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "bevegelse-time",
+        "filnavn": "Besøk per time",
+        "path": "/images/graphs/2024/bevegelse/04-besok-per-time.jpg",
+        "beskrivelse": "Timefordeling av besøk gjennom døgnet",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "besokende-alder-kjonn",
+        "filnavn": "Alders- og kjønnsfordeling",
+        "path": "/images/graphs/2024/besokende/01-alder-kjonn.jpg",
+        "beskrivelse": "Demografisk fordeling av besøkende",
+        "kategori": "besokende"
+      },
+      {
+        "id": "besokende-omrader",
+        "filnavn": "Områder besøkende kommer fra",
+        "path": "/images/graphs/2024/besokende/02-omrader.jpg",
+        "beskrivelse": "Geografisk oversikt over hvor besøkende kommer fra",
+        "kategori": "besokende"
+      },
+      {
+        "id": "internasjonal-q1",
+        "filnavn": "Internasjonalt Besøkende - Q1",
+        "path": "/images/graphs/2024/internasjonal/01-q1.jpg",
+        "beskrivelse": "Internasjonale besøkende første kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q2",
+        "filnavn": "Internasjonalt Besøkende - Q2",
+        "path": "/images/graphs/2024/internasjonal/02-q2.jpg",
+        "beskrivelse": "Internasjonale besøkende andre kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q3",
+        "filnavn": "Internasjonalt Besøkende - Q3",
+        "path": "/images/graphs/2024/internasjonal/03-q3.jpg",
+        "beskrivelse": "Internasjonale besøkende tredje kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q4",
+        "filnavn": "Internasjonalt Besøkende - Q4",
+        "path": "/images/graphs/2024/internasjonal/04-q4.jpg",
+        "beskrivelse": "Internasjonale besøkende fjerde kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "utvikling-arlig-vekst",
+        "filnavn": "Årlig Vekst",
+        "path": "/images/graphs/2024/utvikling/01-arlig-vekst.jpg",
+        "beskrivelse": "Årlig vekst i besøkende og aktivitet",
+        "kategori": "utvikling"
+      }
+    ],
+    "nokkeldata": {
+      "befolkning": 58200,
+      "dagligTrafikk": 43500,
+      "besokende": 165000,
+      "handelsomsetning": 3970000000
+    },
+    "demografi": {
+      "totalBefolkning": 58200,
+      "aldersfordeling": {
+        "0-17": 12,
+        "18-29": 32,
+        "30-49": 38,
+        "50-66": 14,
+        "67+": 4
+      },
+      "husstandsstorrelse": 1.7
+    },
+    "marked": {
+      "omsetning": 3970000000,
+      "totalAktorer": 359,
+      "ansatte": 4005
+    },
+    "bevegelse": {
+      "dagligTrafikk": 43500,
+      "besoksmønster": {
+        "ukedag": 64,
+        "helg": 36
+      }
+    }
+  },
+  "metadata": {
+    "opprettet": "2024-12-31",
+    "sistOppdatert": "2024-12-31",
+    "status": "publisert",
+    "versjon": 2,
+    "forfatter": "Natural State",
+    "kilde": ["Plaace.ai"],
+    "heroImage": "/images/areas/grunerlokka.jpg",
+    "notater": [
+      "Komplett årsrapport for Grünerløkka 2024",
+      "359 aktører kartlagt med detaljert informasjon",
+      "Total omsetning på 3.97 milliarder NOK",
+      "Omfattende data for bevegelse, handel og besøkende",
+      "Inkluderer internasjonale besøkstall per kvartal"
+    ]
+  }
+}

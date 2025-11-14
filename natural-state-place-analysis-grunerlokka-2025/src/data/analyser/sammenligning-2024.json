@@ -1,0 +1,262 @@
+{
+  "id": "sammenligning-2024",
+  "title": "Områdesammenligning 2024",
+  "analysisType": "comparison",
+  "period": {
+    "type": "year",
+    "year": 2024,
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "label": "2024"
+  },
+  "area": {
+    "id": "sammenligning",
+    "name": "Områdesammenligning",
+    "displayName": "Grünerløkka, Bjørvika, Sentrum & Majorstuen",
+    "type": "multi-district",
+    "areas": [
+      {
+        "id": "grunerlokka",
+        "name": "Grünerløkka",
+        "color": "#2D5F3F"
+      },
+      {
+        "id": "bjørvika",
+        "name": "Bjørvika",
+        "color": "#4A90E2"
+      },
+      {
+        "id": "sentrum",
+        "name": "Sentrum",
+        "color": "#E74C3C"
+      },
+      {
+        "id": "majorstuen",
+        "name": "Majorstuen",
+        "color": "#9B59B6"
+      }
+    ],
+    "description": "Sammenligning av fire sentrale bydeler i Oslo"
+  },
+  "plaaceData": {
+    "rapportDato": "2024-12-31",
+    "datakilder": ["Plaace.ai"],
+    "screenshots": [
+      {
+        "id": "oversikt-hovedbilde",
+        "filnavn": "Hovedbilde - Sammenligning",
+        "path": "/images/graphs/sammenligning-2024/oversikt/01-hovedbilde.jpg",
+        "beskrivelse": "Hovedoversikt - Sammenligning av fire bydeler",
+        "kategori": "oversikt"
+      },
+      {
+        "id": "oversikt-farger",
+        "filnavn": "Fargeoversikt bydeler",
+        "path": "/images/graphs/sammenligning-2024/oversikt/02-farger-bydeler.jpg",
+        "beskrivelse": "Fargekoordinat for de fire bydelene",
+        "kategori": "oversikt"
+      },
+      {
+        "id": "demografi-aldersfordeling",
+        "filnavn": "Aldersfordeling",
+        "path": "/images/graphs/sammenligning-2024/demografi/01-aldersfordeling.jpg",
+        "beskrivelse": "Aldersfordeling i de fire bydelene",
+        "kategori": "demografi"
+      },
+      {
+        "id": "demografi-husholdninger",
+        "filnavn": "Antall husholdninger",
+        "path": "/images/graphs/sammenligning-2024/demografi/02-antall-husholdninger.jpg",
+        "beskrivelse": "Sammenligning av antall husholdninger",
+        "kategori": "demografi"
+      },
+      {
+        "id": "demografi-hus",
+        "filnavn": "Antall hus",
+        "path": "/images/graphs/sammenligning-2024/demografi/03-antall-hus.jpg",
+        "beskrivelse": "Sammenligning av antall hus",
+        "kategori": "demografi"
+      },
+      {
+        "id": "demografi-inntekt",
+        "filnavn": "Inntektsfordeling",
+        "path": "/images/graphs/sammenligning-2024/demografi/04-inntektsfordeling.jpg",
+        "beskrivelse": "Inntektsfordeling i de fire bydelene",
+        "kategori": "demografi"
+      },
+      {
+        "id": "demografi-medianinntekt",
+        "filnavn": "Medianinntekt per husholdningstype",
+        "path": "/images/graphs/sammenligning-2024/demografi/05-medianinntekt.jpg",
+        "beskrivelse": "Medianinntekt fordelt på husholdningstype",
+        "kategori": "demografi"
+      },
+      {
+        "id": "demografi-over-tid",
+        "filnavn": "Demografi over tid",
+        "path": "/images/graphs/sammenligning-2024/demografi/06-demografi-over-tid.jpg",
+        "beskrivelse": "Demografisk utvikling over tid",
+        "kategori": "demografi"
+      },
+      {
+        "id": "besokende-alder-kjonn",
+        "filnavn": "Alders- og kjønnsfordeling",
+        "path": "/images/graphs/sammenligning-2024/besokende/01-alder-kjonn.jpg",
+        "beskrivelse": "Alders- og kjønnsfordeling for besøkende",
+        "kategori": "besokende"
+      },
+      {
+        "id": "besokende-husholdningstype",
+        "filnavn": "Husholdningstypefordeling",
+        "path": "/images/graphs/sammenligning-2024/besokende/02-husholdningstype.jpg",
+        "beskrivelse": "Fordeling av husholdningstyper blant besøkende",
+        "kategori": "besokende"
+      },
+      {
+        "id": "besokende-hus",
+        "filnavn": "Antall hus",
+        "path": "/images/graphs/sammenligning-2024/besokende/03-antall-hus.jpg",
+        "beskrivelse": "Antall hus for besøkende",
+        "kategori": "besokende"
+      },
+      {
+        "id": "besokende-inntekt",
+        "filnavn": "Inntektsfordeling",
+        "path": "/images/graphs/sammenligning-2024/besokende/04-inntektsfordeling.jpg",
+        "beskrivelse": "Inntektsfordeling blant besøkende",
+        "kategori": "besokende"
+      },
+      {
+        "id": "besokende-medianinntekt",
+        "filnavn": "Medianinntekt per husholdningstype",
+        "path": "/images/graphs/sammenligning-2024/besokende/05-medianinntekt.jpg",
+        "beskrivelse": "Medianinntekt for besøkende per husholdningstype",
+        "kategori": "besokende"
+      },
+      {
+        "id": "bevegelse-monster",
+        "filnavn": "Bevegelsesmønster",
+        "path": "/images/graphs/sammenligning-2024/bevegelse/01-bevegelsesmonster.jpg",
+        "beskrivelse": "Bevegelsesmønstre i de fire bydelene",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "bevegelse-ukedag",
+        "filnavn": "Besøk per ukedag",
+        "path": "/images/graphs/sammenligning-2024/bevegelse/02-besok-per-ukedag.jpg",
+        "beskrivelse": "Sammenligning av besøk per ukedag",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "bevegelse-time",
+        "filnavn": "Besøk per time",
+        "path": "/images/graphs/sammenligning-2024/bevegelse/03-besok-per-time.jpg",
+        "beskrivelse": "Timefordeling av besøk gjennom døgnet",
+        "kategori": "bevegelse"
+      },
+      {
+        "id": "konkurranse-kjeder",
+        "filnavn": "Kjeder vs Uavhengige",
+        "path": "/images/graphs/sammenligning-2024/konkurranse/01-kjeder-vs-uavhengige.jpg",
+        "beskrivelse": "Sammenligning av kjeder og uavhengige aktører",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-konseptmiks",
+        "filnavn": "Konseptmiks",
+        "path": "/images/graphs/sammenligning-2024/konkurranse/02-konseptmiks.jpg",
+        "beskrivelse": "Fordeling av konsepter og bransjer",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-utvikling",
+        "filnavn": "Utvikling per år",
+        "path": "/images/graphs/sammenligning-2024/konkurranse/03-utvikling-per-ar.jpg",
+        "beskrivelse": "Historisk utvikling av konkurransesituasjonen",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "konkurranse-andeler",
+        "filnavn": "Over og underandel vs kommune",
+        "path": "/images/graphs/sammenligning-2024/konkurranse/04-over-underandel.jpg",
+        "beskrivelse": "Sammenligning med kommunenivå",
+        "kategori": "konkurranse"
+      },
+      {
+        "id": "korthandel-2024",
+        "filnavn": "Korthandel 2024",
+        "path": "/images/graphs/sammenligning-2024/korthandel/01-korthandel-2024.jpg",
+        "beskrivelse": "Korthandelsoversikt for 2024",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-arlig-vekst",
+        "filnavn": "Årlig vekst",
+        "path": "/images/graphs/sammenligning-2024/korthandel/02-arlig-vekst.jpg",
+        "beskrivelse": "Årlig vekst i korthandel",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-indeksert",
+        "filnavn": "Indeksert vekst",
+        "path": "/images/graphs/sammenligning-2024/korthandel/03-indeksert-vekst.jpg",
+        "beskrivelse": "Indeksert vekst i korthandel",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "korthandel-ukedag",
+        "filnavn": "Korthandel per ukedag",
+        "path": "/images/graphs/sammenligning-2024/korthandel/04-per-ukedag.jpg",
+        "beskrivelse": "Korthandel fordelt på ukedager",
+        "kategori": "korthandel"
+      },
+      {
+        "id": "internasjonal-q1",
+        "filnavn": "Internasjonalt Q1",
+        "path": "/images/graphs/sammenligning-2024/internasjonal/01-q1.jpg",
+        "beskrivelse": "Internasjonale besøkende første kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q2",
+        "filnavn": "Internasjonalt Q2",
+        "path": "/images/graphs/sammenligning-2024/internasjonal/02-q2.jpg",
+        "beskrivelse": "Internasjonale besøkende andre kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q3",
+        "filnavn": "Internasjonalt Q3",
+        "path": "/images/graphs/sammenligning-2024/internasjonal/03-q3.jpg",
+        "beskrivelse": "Internasjonale besøkende tredje kvartal",
+        "kategori": "internasjonal"
+      },
+      {
+        "id": "internasjonal-q4",
+        "filnavn": "Internasjonalt Q4",
+        "path": "/images/graphs/sammenligning-2024/internasjonal/04-q4.jpg",
+        "beskrivelse": "Internasjonale besøkende fjerde kvartal",
+        "kategori": "internasjonal"
+      }
+    ],
+    "nokkeldata": {
+      "antallOmrader": 4,
+      "bydelar": ["Grünerløkka", "Bjørvika", "Sentrum", "Majorstuen"]
+    }
+  },
+  "metadata": {
+    "opprettet": "2024-12-31",
+    "sistOppdatert": "2024-12-31",
+    "status": "publisert",
+    "versjon": 1,
+    "forfatter": "Natural State",
+    "kilde": ["Plaace.ai"],
+    "heroImage": "/images/areas/sammenligning-collage.jpg",
+    "notater": [
+      "Sammenligning av fire sentrale bydeler i Oslo",
+      "Omfattende data på demografi, bevegelse, handel og besøkende",
+      "Inkluderer internasjonale besøkstall per kvartal",
+      "28 detaljerte analysebilder"
+    ]
+  }
+}
