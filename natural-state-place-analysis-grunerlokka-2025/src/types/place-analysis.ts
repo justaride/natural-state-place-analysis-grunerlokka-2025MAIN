@@ -73,7 +73,7 @@ export interface ScreenshotData {
   filnavn: string;
   path: string;
   beskrivelse: string;
-  kategori: 'oversikt' | 'demografi' | 'marked' | 'bevegelse' | 'sosiodemografi' | 'annet';
+  kategori: 'oversikt' | 'demografi' | 'marked' | 'bevegelse' | 'sosiodemografi' | 'konkurranse' | 'korthandel' | 'besokende' | 'internasjonal' | 'utvikling' | 'annet';
   timestamp?: string;
 }
 
