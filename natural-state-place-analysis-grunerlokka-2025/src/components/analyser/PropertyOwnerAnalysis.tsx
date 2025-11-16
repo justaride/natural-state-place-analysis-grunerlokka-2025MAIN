@@ -65,9 +65,7 @@ export default function PropertyOwnerAnalysis({
       tjenester: 0,
     };
 
-    const growthByCategory: {
-      [key: string]: { early: number; late: number };
-    } = {
+    const growthByCategory: Record<string, { early: number; late: number }> = {
       handel: { early: 0, late: 0 },
       matOgOpplevelser: { early: 0, late: 0 },
       tjenester: { early: 0, late: 0 },
@@ -85,9 +83,9 @@ export default function PropertyOwnerAnalysis({
         totals.matOgOpplevelser += day.matOgOpplevelser;
         totals.tjenester += day.tjenester;
 
-        growthByCategory.handel[period] += day.handel;
-        growthByCategory.matOgOpplevelser[period] += day.matOgOpplevelser;
-        growthByCategory.tjenester[period] += day.tjenester;
+        growthByCategory.handel![period] += day.handel;
+        growthByCategory.matOgOpplevelser![period] += day.matOgOpplevelser;
+        growthByCategory.tjenester![period] += day.tjenester;
       });
     });
 
