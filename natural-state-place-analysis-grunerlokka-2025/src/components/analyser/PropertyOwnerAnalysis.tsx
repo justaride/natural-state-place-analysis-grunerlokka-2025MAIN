@@ -188,9 +188,9 @@ export default function PropertyOwnerAnalysis({
         totals.tjenester += day.tjenester;
       });
 
-      categoryData.handel.push(totals.handel);
-      categoryData.matOgOpplevelser.push(totals.matOgOpplevelser);
-      categoryData.tjenester.push(totals.tjenester);
+      categoryData.handel!.push(totals.handel);
+      categoryData.matOgOpplevelser!.push(totals.matOgOpplevelser);
+      categoryData.tjenester!.push(totals.tjenester);
     });
 
     const calculateCV = (values: number[]) => {
