@@ -99,8 +99,8 @@ export default function PropertyOwnerAnalysis({
           value: totals.handel,
           percentage: ((totals.handel / totalRevenue) * 100).toFixed(1),
           growth:
-            ((growthByCategory.handel.late - growthByCategory.handel.early) /
-              growthByCategory.handel.early) *
+            ((growthByCategory.handel!.late - growthByCategory.handel!.early) /
+              growthByCategory.handel!.early) *
             100,
         },
         {
@@ -110,9 +110,9 @@ export default function PropertyOwnerAnalysis({
             1
           ),
           growth:
-            ((growthByCategory.matOgOpplevelser.late -
-              growthByCategory.matOgOpplevelser.early) /
-              growthByCategory.matOgOpplevelser.early) *
+            ((growthByCategory.matOgOpplevelser!.late -
+              growthByCategory.matOgOpplevelser!.early) /
+              growthByCategory.matOgOpplevelser!.early) *
             100,
         },
         {
@@ -120,9 +120,9 @@ export default function PropertyOwnerAnalysis({
           value: totals.tjenester,
           percentage: ((totals.tjenester / totalRevenue) * 100).toFixed(1),
           growth:
-            ((growthByCategory.tjenester.late -
-              growthByCategory.tjenester.early) /
-              growthByCategory.tjenester.early) *
+            ((growthByCategory.tjenester!.late -
+              growthByCategory.tjenester!.early) /
+              growthByCategory.tjenester!.early) *
             100,
         },
       ],
