@@ -1,0 +1,68 @@
+{
+  "id": "kvartalsrapport-banktransaksjoner",
+  "title": "Kvartalsrapport - Banktransaksjoner 2019-2025",
+  "area": {
+    "id": "grunerlokka",
+    "name": "Grünerløkka",
+    "displayName": "Grünerløkka: Utvikling i banktransaksjoner per kvartal"
+  },
+  "type": "kvartalsrapport",
+  "analysisType": "timeline",
+  "period": {
+    "type": "custom",
+    "year": 2024,
+    "startDate": "2019-01-01",
+    "endDate": "2025-12-31",
+    "label": "2019-2025"
+  },
+  "metadata": {
+    "heroImage": "/images/analyser/grunerlokka-hero.jpg",
+    "opprettet": "2025-01-16",
+    "sistOppdatert": "2025-01-16",
+    "status": "publisert",
+    "versjon": 1,
+    "kilde": ["Plaace.co - Bankhandel", "Finn.no - Eiendomsdata", "SSB - Befolkningsstatistikk"],
+    "notater": [
+      "Detaljert analyse av bankhandel-transaksjoner på Grünerløkka fordelt per kvartal fra 2019 til 2025",
+      "Data inkluderer alle korthandel-transaksjoner i Grünerløkka +5 urbant område",
+      "Q1 = Januar-Mars, Q2 = April-Juni, Q3 = Juli-September, Q4 = Oktober-Desember",
+      "YoY (Year-over-Year) viser prosentvis endring fra samme kvartal året før",
+      "COVID-19 pandemien påvirket transaksjoner betydelig i 2020-2021"
+    ]
+  },
+  "plaaceData": {
+    "rapportDato": "2025-01-16",
+    "datakilder": ["Plaace.co - Bankhandel", "Finn.no - Eiendomsdata", "SSB - Befolkningsstatistikk"],
+    "screenshots": [],
+    "nokkeldata": {}
+  },
+  "quarterlyData": {
+    "description": "Quarterly bank transaction data for Grünerløkka 2019-2025. Data should be uploaded as CSV or JSON.",
+    "format": {
+      "year": "number (2019-2025)",
+      "quarter": "number (1-4)",
+      "quarterLabel": "string (Q1, Q2, Q3, Q4)",
+      "amount": "number (total transaction amount in NOK)",
+      "transactionCount": "number (optional - total number of transactions)",
+      "averageTransaction": "number (optional - average transaction size)"
+    },
+    "exampleData": [
+      {
+        "year": 2019,
+        "quarter": 1,
+        "quarterLabel": "Q1 2019",
+        "amount": 850000000,
+        "transactionCount": 125000,
+        "averageTransaction": 6800
+      },
+      {
+        "year": 2019,
+        "quarter": 2,
+        "quarterLabel": "Q2 2019",
+        "amount": 920000000,
+        "transactionCount": 138000,
+        "averageTransaction": 6670
+      }
+    ]
+  }
+}

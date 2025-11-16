@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "title": "Grünerløkka Banktransaksjoner per Kvartal",
+    "period": "2019-2025",
+    "area": "Grünerløkka +5 urbant område",
+    "currency": "NOK",
+    "dataSource": "Plaace.co",
+    "lastUpdated": "2025-01-16",
+    "notes": [
+      "Q1 = Januar-Mars",
+      "Q2 = April-Juni",
+      "Q3 = Juli-September",
+      "Q4 = Oktober-Desember",
+      "2020-2021 data påvirket av COVID-19 restriksjoner"
+    ]
+  },
+  "data": [
+    {
+      "year": 2019,
+      "quarter": 1,
+      "quarterLabel": "Q1 2019",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2019,
+      "quarter": 2,
+      "quarterLabel": "Q2 2019",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2019,
+      "quarter": 3,
+      "quarterLabel": "Q3 2019",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2019,
+      "quarter": 4,
+      "quarterLabel": "Q4 2019",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2020,
+      "quarter": 1,
+      "quarterLabel": "Q1 2020",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - COVID-19 began March 2020"
+    },
+    {
+      "year": 2020,
+      "quarter": 2,
+      "quarterLabel": "Q2 2020",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - COVID-19 lockdown period"
+    },
+    {
+      "year": 2020,
+      "quarter": 3,
+      "quarterLabel": "Q3 2020",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2020,
+      "quarter": 4,
+      "quarterLabel": "Q4 2020",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2021,
+      "quarter": 1,
+      "quarterLabel": "Q1 2021",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2021,
+      "quarter": 2,
+      "quarterLabel": "Q2 2021",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2021,
+      "quarter": 3,
+      "quarterLabel": "Q3 2021",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2021,
+      "quarter": 4,
+      "quarterLabel": "Q4 2021",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2022,
+      "quarter": 1,
+      "quarterLabel": "Q1 2022",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2022,
+      "quarter": 2,
+      "quarterLabel": "Q2 2022",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2022,
+      "quarter": 3,
+      "quarterLabel": "Q3 2022",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2022,
+      "quarter": 4,
+      "quarterLabel": "Q4 2022",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2023,
+      "quarter": 1,
+      "quarterLabel": "Q1 2023",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2023,
+      "quarter": 2,
+      "quarterLabel": "Q2 2023",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2023,
+      "quarter": 3,
+      "quarterLabel": "Q3 2023",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2023,
+      "quarter": 4,
+      "quarterLabel": "Q4 2023",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2024,
+      "quarter": 1,
+      "quarterLabel": "Q1 2024",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2024,
+      "quarter": 2,
+      "quarterLabel": "Q2 2024",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2024,
+      "quarter": 3,
+      "quarterLabel": "Q3 2024",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2024,
+      "quarter": 4,
+      "quarterLabel": "Q4 2024",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Add your actual data here"
+    },
+    {
+      "year": 2025,
+      "quarter": 1,
+      "quarterLabel": "Q1 2025",
+      "amount": 0,
+      "transactionCount": 0,
+      "averageTransaction": 0,
+      "note": "PLACEHOLDER - Preliminary data"
+    }
+  ]
+}
