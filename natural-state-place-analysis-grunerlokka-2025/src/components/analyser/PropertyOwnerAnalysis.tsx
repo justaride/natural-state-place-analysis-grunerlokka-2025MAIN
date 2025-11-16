@@ -80,7 +80,7 @@ export default function PropertyOwnerAnalysis({
       const days = dailyData.quarters[qKey];
       const period = idx < midpoint ? 'early' : 'late';
 
-      days.forEach((day) => {
+      days?.forEach((day) => {
         totals.handel += day.handel;
         totals.matOgOpplevelser += day.matOgOpplevelser;
         totals.tjenester += day.tjenester;
