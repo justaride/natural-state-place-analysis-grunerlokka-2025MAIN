@@ -237,8 +237,8 @@ export default function PropertyOwnerAnalysis({
     ];
   }, [dailyData]);
 
-  // 4. INVESTMENT TIMING INDICATORS
-  const investmentTiming = useMemo(() => {
+  // 4. INVESTMENT TIMING INDICATORS - COMMENTED OUT FOR NOW
+  /* const investmentTiming = useMemo(() => {
     const recent4Q = validData.slice(-4);
     const previous4Q = validData.slice(-8, -4);
 
@@ -283,7 +283,7 @@ export default function PropertyOwnerAnalysis({
       phase,
       recommendation,
     };
-  }, [validData]);
+  }, [validData]); */
 
   const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
 
@@ -560,8 +560,8 @@ export default function PropertyOwnerAnalysis({
         </section>
       )}
 
-      {/* 4. INVESTMENT TIMING */}
-      <section>
+      {/* 4. INVESTMENT TIMING - HIDDEN FOR NOW */}
+      {/* <section>
         <h3 className="mb-6 text-2xl font-bold text-natural-forest">
           Investeringstiming & Markedsfase
         </h3>
@@ -679,10 +679,10 @@ export default function PropertyOwnerAnalysis({
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
-      {/* SUMMARY INSIGHTS FOR PROPERTY OWNERS */}
-      <section>
+      {/* SUMMARY INSIGHTS FOR PROPERTY OWNERS - HIDDEN FOR NOW */}
+      {/* <section>
         <Card className="border-2 border-natural-forest/20">
           <CardContent className="p-8">
             <h3 className="mb-6 text-2xl font-bold text-natural-forest">
@@ -775,7 +775,7 @@ export default function PropertyOwnerAnalysis({
             </div>
           </CardContent>
         </Card>
-      </section>
+      </section> */}
     </div>
   );
 }
