@@ -244,8 +244,8 @@ export default async function KvartalsrapportPage() {
           </div>
         )}
 
-        {/* Data Upload Instructions */}
-        <div className="mt-16">
+        {/* Data Upload Instructions - HIDDEN FOR NOW */}
+        {/* <div className="mt-16">
           <Card>
             <CardContent className="p-6 md:p-8">
               <h3 className="mb-4 text-xl font-bold text-natural-forest md:text-2xl">
@@ -306,7 +306,7 @@ export default async function KvartalsrapportPage() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         {/* Notes */}
         {analysis.metadata.notater && analysis.metadata.notater.length > 0 && (
