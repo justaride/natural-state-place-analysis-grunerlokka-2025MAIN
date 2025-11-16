@@ -205,31 +205,31 @@ export default function PropertyOwnerAnalysis({
     return [
       {
         category: 'Handel',
-        volatility: calculateCV(categoryData.handel),
+        volatility: calculateCV(categoryData.handel!),
         rating:
-          calculateCV(categoryData.handel) < 15
+          calculateCV(categoryData.handel!) < 15
             ? 'Svært stabil'
-            : calculateCV(categoryData.handel) < 25
+            : calculateCV(categoryData.handel!) < 25
               ? 'Stabil'
               : 'Moderat volatil',
       },
       {
         category: 'Mat og Opplevelser',
-        volatility: calculateCV(categoryData.matOgOpplevelser),
+        volatility: calculateCV(categoryData.matOgOpplevelser!),
         rating:
-          calculateCV(categoryData.matOgOpplevelser) < 15
+          calculateCV(categoryData.matOgOpplevelser!) < 15
             ? 'Svært stabil'
-            : calculateCV(categoryData.matOgOpplevelser) < 25
+            : calculateCV(categoryData.matOgOpplevelser!) < 25
               ? 'Stabil'
               : 'Moderat volatil',
       },
       {
         category: 'Tjenester',
-        volatility: calculateCV(categoryData.tjenester),
+        volatility: calculateCV(categoryData.tjenester!),
         rating:
-          calculateCV(categoryData.tjenester) < 15
+          calculateCV(categoryData.tjenester!) < 15
             ? 'Svært stabil'
-            : calculateCV(categoryData.tjenester) < 25
+            : calculateCV(categoryData.tjenester!) < 25
               ? 'Stabil'
               : 'Moderat volatil',
       },
