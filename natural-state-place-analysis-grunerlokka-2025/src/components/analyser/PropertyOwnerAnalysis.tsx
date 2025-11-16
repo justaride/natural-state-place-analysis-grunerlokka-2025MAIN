@@ -2,12 +2,8 @@
 
 import { useMemo } from 'react';
 import {
-  BarChart,
-  Bar,
   LineChart,
   Line,
-  AreaChart,
-  Area,
   PieChart,
   Pie,
   Cell,
@@ -15,7 +11,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from 'recharts';
 import { Card, CardContent } from '@/components/ui/Card';
