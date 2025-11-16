@@ -74,6 +74,22 @@ export default function Home() {
 
           <Card className="hover:shadow-medium transition-shadow">
             <CardHeader>
+              <div className="mb-3 text-4xl">📈</div>
+              <CardTitle>Kvartalsrapporter</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-gray-600">
+                Sammenlign banktransaksjoner per kvartal fra 2019-2025.
+                Følg trender, se sesongvariasjoner og YoY-vekst.
+              </p>
+              <Link href="/analyser/kvartalsrapport-banktransaksjoner" className="mt-2 inline-block text-sm text-natural-sage hover:underline">
+                Se kvartalsrapport →
+              </Link>
+            </CardContent>
+          </Card>
+
+          <Card className="hover:shadow-medium transition-shadow">
+            <CardHeader>
               <div className="mb-3 text-4xl">⚖️</div>
               <CardTitle>Sammenligninger</CardTitle>
             </CardHeader>
@@ -94,19 +110,6 @@ export default function Home() {
               <p className="text-gray-600">
                 Utforsk hvordan festivaler, åpninger, byggprosjekter og andre
                 hendelser påvirker området. Før/etter-analyser og effektmålinger.
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:shadow-medium transition-shadow">
-            <CardHeader>
-              <div className="mb-3 text-4xl">📰</div>
-              <CardTitle>Mediasporing</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600">
-                Spor mediadekning av Grünerløkka. Sentimentanalyse,
-                temaer og trender i hvordan området fremstilles og diskuteres.
               </p>
             </CardContent>
           </Card>
