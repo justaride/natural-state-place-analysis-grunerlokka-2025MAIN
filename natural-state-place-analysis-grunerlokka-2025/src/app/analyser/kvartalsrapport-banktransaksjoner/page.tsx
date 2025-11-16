@@ -228,8 +228,8 @@ export default async function KvartalsrapportPage() {
               .sort(([a], [b]) => a.localeCompare(b))
               .map(([quarterKey, dailyTransactions]: [string, any]) => {
                 const [q, year] = quarterKey.split('_');
-                const quarter = parseInt(q.replace('Q', ''));
-                const quarterYear = parseInt(year);
+                const quarter = parseInt(q?.replace('Q', '') || '0');
+                const quarterYear = parseInt(year || '0');
 
                 return (
                   <div key={quarterKey}>
