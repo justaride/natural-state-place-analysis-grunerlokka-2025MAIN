@@ -42,10 +42,18 @@ export default function PlaceAnalysisCard({ analysis }: PlaceAnalysisCardProps) 
 
   // Determine hero image based on analysis type
   const getHeroImage = () => {
+    // First check if analysis has heroImage in metadata
+    if (analysis.metadata?.heroImage) {
+      return analysis.metadata.heroImage;
+    }
+
+    // Fallback to hardcoded images for specific analyses
     if (analysis.id === '2024-arsrapport') {
       return '/images/areas/grunerlokka.jpg';
     } else if (analysis.id === 'sammenligning-2024') {
       return '/images/areas/sammenligning-collage.jpg';
+    } else if (analysis.id === 'kvartalsrapport-banktransaksjoner') {
+      return '/images/analyser/grunerlokka-hero.jpg';
     }
     return null;
   };

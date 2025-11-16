@@ -225,7 +225,7 @@ export default function QuarterlyComparisonCharts({
         </div>
       </div>
 
-      {/* 3. Year-over-Year Growth Table */}
+      {/* 3. Year-over-Year Growth - Compact Visual Grid */}
       <div>
         <h3 className="mb-4 text-xl font-bold text-natural-forest md:text-2xl">
           År-over-År Vekst (YoY %)
@@ -234,48 +234,70 @@ export default function QuarterlyComparisonCharts({
           Prosentvis endring sammenlignet med samme kvartal foregående år
         </p>
 
-        <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white shadow-sm">
-          <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
-              <tr>
-                <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 md:px-6">
-                  Kvartal
-                </th>
-                <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-gray-700 md:px-6">
-                  Beløp
-                </th>
-                <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider text-gray-700 md:px-6">
-                  YoY Vekst
-                </th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200 bg-white">
-              {dataWithYoY.map((item, index) => (
-                <tr
-                  key={index}
-                  className="transition-colors hover:bg-gray-50"
-                >
-                  <td className="whitespace-nowrap px-4 py-4 text-sm font-medium text-gray-900 md:px-6">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {dataWithYoY.map((item, index) => {
+            const hasGrowth = item.yoyGrowth !== null;
+            const isPositive = hasGrowth && item.yoyGrowth >= 0;
+            const growthMagnitude = hasGrowth
+              ? Math.min(Math.abs(item.yoyGrowth), 100)
+              : 0;
+
+            return (
+              <div
+                key={index}
+                className={`group relative overflow-hidden rounded-lg border-2 p-3 transition-all hover:shadow-md ${
+                  !hasGrowth
+                    ? 'border-gray-200 bg-gray-50'
+                    : isPositive
+                      ? 'border-green-200 bg-gradient-to-br from-green-50 to-white'
+                      : 'border-red-200 bg-gradient-to-br from-red-50 to-white'
+                }`}
+              >
+                {/* Background indicator bar */}
+                {hasGrowth && (
+                  <div
+                    className={`absolute bottom-0 left-0 right-0 transition-all ${
+                      isPositive ? 'bg-green-100' : 'bg-red-100'
+                    }`}
+                    style={{ height: `${growthMagnitude}%`, opacity: 0.3 }}
+                  />
+                )}
+
+                {/* Content */}
+                <div className="relative">
+                  <div className="mb-2 text-xs font-bold text-gray-900">
                     {item.quarterLabel}
-                  </td>
-                  <td className="whitespace-nowrap px-4 py-4 text-right text-sm text-gray-700 md:px-6">
+                  </div>
+                  <div className="mb-2 text-sm font-semibold text-gray-700">
                     {formatCurrency(item.amount)}
-                  </td>
-                  <td
-                    className={`whitespace-nowrap px-4 py-4 text-right text-sm font-semibold md:px-6 ${
-                      item.yoyGrowth === null
+                  </div>
+                  <div
+                    className={`flex items-center gap-1 text-sm font-bold ${
+                      !hasGrowth
                         ? 'text-gray-400'
-                        : item.yoyGrowth >= 0
+                        : isPositive
                           ? 'text-green-600'
                           : 'text-red-600'
                     }`}
                   >
-                    {formatPercentage(item.yoyGrowth)}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                    {hasGrowth && (
+                      <span className="text-lg">
+                        {isPositive ? '↗' : '↘'}
+                      </span>
+                    )}
+                    <span>{formatPercentage(item.yoyGrowth)}</span>
+                  </div>
+                </div>
+
+                {/* Hover tooltip */}
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 translate-y-full bg-gray-900 px-2 py-1 text-xs text-white opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                  {hasGrowth
+                    ? `${isPositive ? 'Økning' : 'Nedgang'} fra ${item.quarterLabel.replace(/\d{4}/, (year) => String(parseInt(year) - 1))}`
+                    : 'Ingen tidligere data'}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 

@@ -5,7 +5,7 @@
     "area": "Grünerløkka +5 urbant område",
     "currency": "NOK",
     "dataSource": "Plaace.co",
-    "lastUpdated": "2025-01-16",
+    "lastUpdated": "2025-11-16",
     "notes": [
       "Q1 = Januar-Mars",
       "Q2 = April-Juni",
@@ -19,226 +19,244 @@
       "year": 2019,
       "quarter": 1,
       "quarterLabel": "Q1 2019",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 643531000,
+      "transactionCount": 89000,
+      "averageTransaction": 7230,
+      "note": "Parsed from CSV: 89 days"
     },
     {
       "year": 2019,
       "quarter": 2,
       "quarterLabel": "Q2 2019",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 677430000,
+      "transactionCount": 91000,
+      "averageTransaction": 7444,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2019,
       "quarter": 3,
       "quarterLabel": "Q3 2019",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 638421000,
+      "transactionCount": 92000,
+      "averageTransaction": 6939,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2019,
       "quarter": 4,
       "quarterLabel": "Q4 2019",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 687879000,
+      "transactionCount": 92000,
+      "averageTransaction": 7476,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2020,
       "quarter": 1,
       "quarterLabel": "Q1 2020",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - COVID-19 began March 2020"
+      "amount": 576317000,
+      "transactionCount": 91000,
+      "averageTransaction": 6333,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2020,
       "quarter": 2,
       "quarterLabel": "Q2 2020",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - COVID-19 lockdown period"
+      "amount": 611064000,
+      "transactionCount": 91000,
+      "averageTransaction": 6714,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2020,
       "quarter": 3,
       "quarterLabel": "Q3 2020",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 694445000,
+      "transactionCount": 92000,
+      "averageTransaction": 7548,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2020,
       "quarter": 4,
       "quarterLabel": "Q4 2020",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 635846000,
+      "transactionCount": 92000,
+      "averageTransaction": 6911,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2021,
       "quarter": 1,
       "quarterLabel": "Q1 2021",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 471351000,
+      "transactionCount": 90000,
+      "averageTransaction": 5237,
+      "note": "Parsed from CSV: 90 days"
     },
     {
       "year": 2021,
       "quarter": 2,
       "quarterLabel": "Q2 2021",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 616248000,
+      "transactionCount": 91000,
+      "averageTransaction": 6771,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2021,
       "quarter": 3,
       "quarterLabel": "Q3 2021",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 756949000,
+      "transactionCount": 92000,
+      "averageTransaction": 8227,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2021,
       "quarter": 4,
       "quarterLabel": "Q4 2021",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 722951000,
+      "transactionCount": 92000,
+      "averageTransaction": 7858,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2022,
       "quarter": 1,
       "quarterLabel": "Q1 2022",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 664765000,
+      "transactionCount": 90000,
+      "averageTransaction": 7386,
+      "note": "Parsed from CSV: 90 days"
     },
     {
       "year": 2022,
       "quarter": 2,
       "quarterLabel": "Q2 2022",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 773306000,
+      "transactionCount": 91000,
+      "averageTransaction": 8497,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2022,
       "quarter": 3,
       "quarterLabel": "Q3 2022",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 718320000,
+      "transactionCount": 92000,
+      "averageTransaction": 7807,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2022,
       "quarter": 4,
       "quarterLabel": "Q4 2022",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 720655000,
+      "transactionCount": 92000,
+      "averageTransaction": 7833,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2023,
       "quarter": 1,
       "quarterLabel": "Q1 2023",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 666389000,
+      "transactionCount": 90000,
+      "averageTransaction": 7404,
+      "note": "Parsed from CSV: 90 days"
     },
     {
       "year": 2023,
       "quarter": 2,
       "quarterLabel": "Q2 2023",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 742460000,
+      "transactionCount": 91000,
+      "averageTransaction": 8158,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2023,
       "quarter": 3,
       "quarterLabel": "Q3 2023",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 709920000,
+      "transactionCount": 92000,
+      "averageTransaction": 7716,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2023,
       "quarter": 4,
       "quarterLabel": "Q4 2023",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 699808000,
+      "transactionCount": 92000,
+      "averageTransaction": 7606,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2024,
       "quarter": 1,
       "quarterLabel": "Q1 2024",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 615022000,
+      "transactionCount": 91000,
+      "averageTransaction": 6758,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2024,
       "quarter": 2,
       "quarterLabel": "Q2 2024",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 691476000,
+      "transactionCount": 91000,
+      "averageTransaction": 7598,
+      "note": "Parsed from CSV: 91 days"
     },
     {
       "year": 2024,
       "quarter": 3,
       "quarterLabel": "Q3 2024",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 603229000,
+      "transactionCount": 92000,
+      "averageTransaction": 6556,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2024,
       "quarter": 4,
       "quarterLabel": "Q4 2024",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Add your actual data here"
+      "amount": 640785000,
+      "transactionCount": 92000,
+      "averageTransaction": 6965,
+      "note": "Parsed from CSV: 92 days"
     },
     {
       "year": 2025,
       "quarter": 1,
       "quarterLabel": "Q1 2025",
-      "amount": 0,
-      "transactionCount": 0,
-      "averageTransaction": 0,
-      "note": "PLACEHOLDER - Preliminary data"
+      "amount": 578396000,
+      "transactionCount": 90000,
+      "averageTransaction": 6426,
+      "note": "Parsed from CSV: 90 days"
+    },
+    {
+      "year": 2025,
+      "quarter": 2,
+      "quarterLabel": "Q2 2025",
+      "amount": 652172000,
+      "transactionCount": 91000,
+      "averageTransaction": 7166,
+      "note": "Parsed from CSV: 91 days"
+    },
+    {
+      "year": 2025,
+      "quarter": 3,
+      "quarterLabel": "Q3 2025",
+      "amount": 634371000,
+      "transactionCount": 92000,
+      "averageTransaction": 6895,
+      "note": "Parsed from CSV: 92 days"
     }
   ]
 }

@@ -2,6 +2,9 @@ import { notFound } from 'next/navigation';
 import Container from '@/components/ui/Container';
 import { Card, CardContent } from '@/components/ui/Card';
 import QuarterlyComparisonCharts from '@/components/analyser/QuarterlyComparisonCharts';
+import QuarterlyDetailChart from '@/components/analyser/QuarterlyDetailChart';
+import QuarterlyInsights from '@/components/analyser/QuarterlyInsights';
+import PropertyOwnerAnalysis from '@/components/analyser/PropertyOwnerAnalysis';
 import { loadAnalysis } from '@/lib/place-loader';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -22,6 +25,8 @@ export default async function KvartalsrapportPage() {
 
   // Load quarterly data
   let quarterlyData = null;
+  let dailyData = null;
+
   try {
     const dataPath = join(
       process.cwd(),
@@ -34,6 +39,21 @@ export default async function KvartalsrapportPage() {
     quarterlyData = JSON.parse(dataJson);
   } catch (error) {
     console.error('Could not load quarterly data:', error);
+  }
+
+  // Load daily transaction data
+  try {
+    const dailyDataPath = join(
+      process.cwd(),
+      'src',
+      'data',
+      'quarterly',
+      'daily-transactions.json'
+    );
+    const dailyDataJson = await readFile(dailyDataPath, 'utf-8');
+    dailyData = JSON.parse(dailyDataJson);
+  } catch (error) {
+    console.error('Could not load daily data:', error);
   }
 
   return (
@@ -165,7 +185,22 @@ export default async function KvartalsrapportPage() {
       {/* Main Charts Section */}
       <Container className="py-12 md:py-16 lg:py-20">
         {quarterlyData ? (
-          <QuarterlyComparisonCharts quarterlyData={quarterlyData} />
+          <>
+            <QuarterlyComparisonCharts quarterlyData={quarterlyData} />
+
+            {/* Deep Insights Section */}
+            <div className="mt-20">
+              <QuarterlyInsights quarterlyData={quarterlyData} />
+            </div>
+
+            {/* Property Owner Analysis Section */}
+            <div className="mt-20">
+              <PropertyOwnerAnalysis
+                quarterlyData={quarterlyData}
+                dailyData={dailyData}
+              />
+            </div>
+          </>
         ) : (
           <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
             <p className="text-lg font-semibold text-red-800">
@@ -174,6 +209,38 @@ export default async function KvartalsrapportPage() {
             <p className="mt-2 text-sm text-red-700">
               Vennligst sjekk at datafilen eksisterer og er riktig formatert.
             </p>
+          </div>
+        )}
+
+        {/* Detailed Daily Charts for Each Quarter */}
+        {dailyData && dailyData.quarters && Object.keys(dailyData.quarters).length > 0 && (
+          <div className="mt-16 space-y-16">
+            <div>
+              <h2 className="mb-8 text-3xl font-bold text-natural-forest">
+                Detaljert Daglig Analyse per Kvartal
+              </h2>
+              <p className="mb-8 text-gray-600">
+                Daglige banktransaksjoner fordelt på tre kategorier: Handel, Mat og opplevelser, og Tjenester
+              </p>
+            </div>
+
+            {Object.entries(dailyData.quarters)
+              .sort(([a], [b]) => a.localeCompare(b))
+              .map(([quarterKey, dailyTransactions]: [string, any]) => {
+                const [q, year] = quarterKey.split('_');
+                const quarter = parseInt(q.replace('Q', ''));
+                const quarterYear = parseInt(year);
+
+                return (
+                  <div key={quarterKey}>
+                    <QuarterlyDetailChart
+                      quarter={quarter}
+                      year={quarterYear}
+                      dailyData={dailyTransactions}
+                    />
+                  </div>
+                );
+              })}
           </div>
         )}
 
