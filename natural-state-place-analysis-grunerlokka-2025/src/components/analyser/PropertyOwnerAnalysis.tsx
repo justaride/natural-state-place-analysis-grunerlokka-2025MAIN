@@ -182,7 +182,7 @@ export default function PropertyOwnerAnalysis({
         tjenester: 0,
       };
 
-      days.forEach((day) => {
+      days?.forEach((day) => {
         totals.handel += day.handel;
         totals.matOgOpplevelser += day.matOgOpplevelser;
         totals.tjenester += day.tjenester;
