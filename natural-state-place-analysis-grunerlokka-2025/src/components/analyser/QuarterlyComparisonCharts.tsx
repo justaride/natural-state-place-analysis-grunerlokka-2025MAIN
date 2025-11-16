@@ -237,9 +237,9 @@ export default function QuarterlyComparisonCharts({
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {dataWithYoY.map((item, index) => {
             const hasGrowth = item.yoyGrowth !== null;
-            const isPositive = hasGrowth && item.yoyGrowth >= 0;
+            const isPositive = hasGrowth && (item.yoyGrowth ?? 0) >= 0;
             const growthMagnitude = hasGrowth
-              ? Math.min(Math.abs(item.yoyGrowth), 100)
+              ? Math.min(Math.abs(item.yoyGrowth ?? 0), 100)
               : 0;
 
             return (

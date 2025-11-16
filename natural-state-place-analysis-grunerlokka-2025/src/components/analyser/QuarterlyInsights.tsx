@@ -2,15 +2,12 @@
 
 import { useMemo } from 'react';
 import {
-  LineChart,
-  Line,
   BarChart,
   Bar,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   Area,
   AreaChart,
@@ -103,7 +100,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
     // 7. Quarter-over-quarter momentum
     const qoqGrowth = validData.map((curr, idx) => {
       if (idx === 0) return { ...curr, qoqGrowth: null };
-      const prev = validData[idx - 1];
+      const prev = validData[idx - 1]!;
       const growth = ((curr.amount - prev.amount) / prev.amount) * 100;
       return { ...curr, qoqGrowth: growth };
     });
@@ -229,10 +226,10 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
               🏆 Beste Sesong
             </div>
             <div className="text-3xl font-bold text-green-700">
-              {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0].quarter}
+              {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0]?.quarter}
             </div>
             <div className="mt-2 text-xs text-gray-600">
-              Gj.snitt: {formatCurrency(insights.seasonalAvg.sort((a, b) => b.average - a.average)[0].average)}
+              Gj.snitt: {formatCurrency(insights.seasonalAvg.sort((a, b) => b.average - a.average)[0]?.average ?? 0)}
             </div>
           </CardContent>
         </Card>
@@ -255,7 +252,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
               </BarChart>
             </ResponsiveContainer>
             <div className="mt-4 text-sm text-gray-600">
-              <p><strong>Innsikt:</strong> {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0].quarter} er gjennomgående det sterkeste kvartalet, mens {insights.seasonalAvg.sort((a, b) => a.average - b.average)[0].quarter} er det svakeste.</p>
+              <p><strong>Innsikt:</strong> {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0]?.quarter} er gjennomgående det sterkeste kvartalet, mens {insights.seasonalAvg.sort((a, b) => a.average - b.average)[0]?.quarter} er det svakeste.</p>
             </div>
           </CardContent>
         </Card>
@@ -408,7 +405,7 @@ export default function QuarterlyInsights({ quarterlyData }: QuarterlyInsightsPr
               <strong>2. Sterk Recovery:</strong> Post-COVID (2022+) viser {formatPercent(((insights.postCovidAvg - insights.preCOVIDAvg) / insights.preCOVIDAvg) * 100)} vekst sammenlignet med 2019-nivåer, med 2022 som toppår.
             </div>
             <div>
-              <strong>3. Sesongmønster:</strong> {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0].quarter} er konsekvent det sterkeste kvartalet (gjennomsnitt {formatCurrency(insights.seasonalAvg.sort((a, b) => b.average - a.average)[0].average)}), sannsynligvis drevet av vår/sommer-aktivitet.
+              <strong>3. Sesongmønster:</strong> {insights.seasonalAvg.sort((a, b) => b.average - a.average)[0]?.quarter} er konsekvent det sterkeste kvartalet (gjennomsnitt {formatCurrency(insights.seasonalAvg.sort((a, b) => b.average - a.average)[0]?.average ?? 0)}), sannsynligvis drevet av vår/sommer-aktivitet.
             </div>
             <div>
               <strong>4. Volatilitet:</strong> Variasjonskoeffisienten på {insights.volatility.coefficientOfVariation.toFixed(1)}% indikerer {insights.volatility.coefficientOfVariation < 10 ? 'stabil' : insights.volatility.coefficientOfVariation < 15 ? 'moderat variabel' : 'høy variabilitet'} i handelsmønstre.

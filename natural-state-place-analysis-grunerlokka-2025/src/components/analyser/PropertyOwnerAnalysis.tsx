@@ -328,7 +328,7 @@ export default function PropertyOwnerAnalysis({
                       fill="#8884d8"
                       dataKey="value"
                     >
-                      {categoryPerformance.distribution.map((entry, index) => (
+                      {categoryPerformance.distribution.map((_entry, index) => (
                         <Cell
                           key={`cell-${index}`}
                           fill={COLORS[index % COLORS.length]}
@@ -450,21 +450,21 @@ export default function PropertyOwnerAnalysis({
               <div className="text-sm text-gray-600">Siste Kvartal Vekst</div>
               <div
                 className={`mt-2 text-3xl font-bold ${
-                  marketStrength.transactionGrowth[
+                  (marketStrength.transactionGrowth[
                     marketStrength.transactionGrowth.length - 1
-                  ]?.growth > 0
+                  ]?.growth ?? 0) > 0
                     ? 'text-green-600'
                     : 'text-red-600'
                 }`}
               >
-                {marketStrength.transactionGrowth[
+                {(marketStrength.transactionGrowth[
                   marketStrength.transactionGrowth.length - 1
-                ]?.growth > 0
+                ]?.growth ?? 0) > 0
                   ? '+'
                   : ''}
-                {marketStrength.transactionGrowth[
+                {(marketStrength.transactionGrowth[
                   marketStrength.transactionGrowth.length - 1
-                ]?.growth.toFixed(1)}
+                ]?.growth ?? 0).toFixed(1)}
                 %
               </div>
               <div className="mt-2 text-xs text-gray-500">
@@ -705,11 +705,11 @@ export default function PropertyOwnerAnalysis({
                     </strong>{' '}
                     i total omsetning fordelt på tre hovedkategorier. Mat og
                     Opplevelser dominerer med{' '}
-                    {categoryPerformance.distribution[1].percentage}%, fulgt av
+                    {categoryPerformance.distribution[1]?.percentage}%, fulgt av
                     Handel (
-                    {categoryPerformance.distribution[0].percentage}%) og
+                    {categoryPerformance.distribution[0]?.percentage}%) og
                     Tjenester (
-                    {categoryPerformance.distribution[2].percentage}%). Denne
+                    {categoryPerformance.distribution[2]?.percentage}%). Denne
                     blandingen gir god diversifisering og stabilitet.
                   </p>
                 </div>
