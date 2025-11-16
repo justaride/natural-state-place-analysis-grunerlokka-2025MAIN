@@ -251,10 +251,10 @@ export default function PropertyOwnerAnalysis({
     const lastQuarter = validData[validData.length - 1];
     const yearAgo = validData.find(
       (q) =>
-        q.year === lastQuarter.year - 1 && q.quarter === lastQuarter.quarter
+        q.year === lastQuarter?.year - 1 && q.quarter === lastQuarter?.quarter
     );
 
-    const yoyGrowth = yearAgo
+    const yoyGrowth = yearAgo && lastQuarter
       ? ((lastQuarter.amount - yearAgo.amount) / yearAgo.amount) * 100
       : 0;
 
