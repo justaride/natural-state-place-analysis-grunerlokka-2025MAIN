@@ -150,7 +150,7 @@ export default function PropertyOwnerAnalysis({
       const prev = recentQuarters[idx - 1];
       return {
         ...q,
-        growth: ((q.amount - prev.amount) / prev.amount) * 100,
+        growth: ((q.amount - prev!.amount) / prev!.amount) * 100,
       };
     });
 
